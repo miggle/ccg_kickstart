@@ -1,0 +1,240 @@
+/* Typography */
+@font-face {
+    font-family: 'QuestrialRegular';
+    src: url('fonts/Questrial-Regular-webfont.eot');
+    src: url('fonts/Questrial-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Questrial-Regular-webfont.woff') format('woff'),
+         url('fonts/Questrial-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Questrial-Regular-webfont.svg#QuestrialRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  font:{
+    size: .75em;
+    family: arial, helvetica, sans-serif;
+  }
+  line-height: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font:{
+    family: arial, helvetica, sans-serif;
+  }
+  line-height: 1.3em;
+}
+
+p, li {
+  color: $dark-grey;
+}
+
+/* Header */
+.site-slogan{
+  color: $blue-text;
+  font:{
+    family: QuestrialRegular;
+    size: 2.5em;
+    weight: normal;
+  }
+}
+
+/* Main Menu */
+#zone-menu nav ul{
+  color: $blue-text;
+  //font-size: ;
+  text-transform: uppercase;
+}
+
+#zone-menu nav a{
+  color: $blue-text;
+  text-decoration: none;
+}
+
+#zone-menu nav .active a,
+#zone-menu nav .active-trail a{
+  color: $dark-blue-text;
+  font-weight: bold;
+}
+
+.form-item-search-block-form label{
+  color: $dark-blue-text;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Homepage News */
+.homepage-news h2{
+  color: $orange;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  font-family: QuestrialRegular;
+  font-weight: normal;
+}
+
+/* Page Title */
+.brighter-healthier h2 {
+  color: $blue-text;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  font-family: QuestrialRegular;
+  font-weight: normal;
+}
+
+.content {
+  .view-nhs-home-blocks h3 {
+    padding-top: 10px;
+    color: #011E49;
+  }
+  .field-name-body {
+    h2,
+    h3,
+    h4 {
+      color: #011E49;
+    }
+  }
+}
+
+#page-title{
+  color: $blue-text;
+  font:{
+    family: QuestrialRegular;
+    size: 1.8em;
+    weight: normal;
+  }
+  letter-spacing: .02em;
+  line-height: 1.2em;
+}
+
+/* News */
+h5.news-date{
+  color: $news-date-grey;
+  font:{
+    size: 1em;
+    weight: normal;
+  }
+}
+
+.node-news p{
+  color: $news-grey
+}
+
+/* Local News Sidebar */
+
+.region-sidebar-second-inner section h2.block-title {
+  color: #011E49;
+  font-size: 1.2em;
+  line-height: 1.1em;
+}
+
+#block-views-news-block h3{
+  font:{
+    size: 1.2em;
+    weight: bold;
+  }
+  text-transform: uppercase;
+  line-height: 1.1em;
+}
+
+#block-views-news-block .read-more a{
+  text-decoration: none;
+  font:{
+    weight: bold;
+  }
+}
+
+#block-views-news-block .read-more a:link{
+  text-decoration: none;
+}
+
+/* Resource View Header */
+.block-nhs-related-links-block .view-header,
+.block-related-minutes-and-notes-block .view-header,
+.block-sidebar-resources-block .view-header,
+.block-clone-of-related-policies-block .view-header,
+.block-related-downloads-block .view-header
+{
+  font-size: .8em;
+  color: #183b70;
+}
+
+/* Latest Publications Sidebar */
+#block-views-sidebar-resources-block .views-field-title a{
+    text-decoration: none;
+}
+
+/* Key Staff Hub */
+.block-views-key-staff-block .views-field-title a{
+  color: $dark-blue-text;
+  text-decoration: none;
+  font:{
+    weight: bold;
+    size: 1.2em;
+  }
+}
+
+.block-views-key-staff-block .views-field-field-qualifications{
+  color: $dark-blue-text;
+  text-decoration: none;
+  font:{
+    size: 1.2em;
+  }
+}
+
+#block-views-key-staff-block .views-field-field-title{
+  color: $news-date-grey;
+}
+
+#block-views-key-staff-block .views-label-field-registered-interests{
+  font-weight: bold;
+}
+
+/* Key Staff */
+.region-content-key_staff_member .field-name-field-qualifications{
+  color: #fcba63;
+  font-family: QuestrialRegular;
+  font-size: 1.8em;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.2em;
+}
+
+.region-content-key_staff_member .field-name-field-title{
+  color: $news-date-grey;
+  font:{
+    size: 1.2em;
+  }
+}
+
+/* Footer */
+footer{
+  color: $navy-text;
+  font: {
+    size: .8em;
+  }
+}
+
+footer #boxes-box-copywrite_notice p{
+  color: $navy-text;
+}
+
+footer a{
+  color: $navy-text;
+  text-decoration: none;
+  vertical-align: bottom;
+  line-height: 1em;
+  white-space: nowrap;
+}
+
+footer li a.active{
+  color: $navy-text;
+  text-decoration: none;
+  vertical-align: bottom;
+  line-height: 1em;
+}
+
+footer a:link,  a:visited{
+  color: $navy-text;
+  text-decoration: none;
+}

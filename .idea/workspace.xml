@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e82ec35a-fc32-4fbb-a489-e3bf62a4c2e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/images/help/cke_widget/embed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/images/help/cke_widget/library.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/images/help/cke_widget/toolbar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/images/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/images/help/node_moderation/content_type_options.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/install/core.base_field_override.node.page.promote.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/install/core.base_field_override.node.page.status.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/install/core.entity_form_display.node.page.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/install/core.entity_view_display.node.page.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/install/core.entity_view_display.node.page.teaser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/install/field.field.node.page.body.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/install/field.field.node.page.field_meta_tags.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/install/field.storage.node.field_meta_tags.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/install/lightning_core.settings.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/install/node.type.page.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/config/schema/lightning_core.schema.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/lightning_core.drush.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/lightning_core.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/lightning_core.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/lightning_core.links.menu.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/lightning_core.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/lightning_core.routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/lightning_core.services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/src/ContentRoleManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/src/Form/SettingsForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/config/install/core.base_field_override.node.landing_page.promote.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/config/install/core.entity_form_display.node.landing_page.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/config/install/core.entity_view_display.node.landing_page.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/config/install/core.entity_view_display.node.landing_page.full.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/config/install/field.field.node.landing_page.field_meta_tags.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/config/install/field.field.node.landing_page.panelizer.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/config/install/field.field.node.page.panelizer.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/config/install/field.storage.node.panelizer.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/config/install/node.type.landing_page.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/config/install/user.role.layout_manager.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/help/layout_roles.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/help/panelizer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/lightning_layout.features.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/lightning_layout.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/lightning_layout.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_layout/lightning_layout.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/core.entity_form_mode.media.media_browser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/core.entity_view_mode.media.embedded.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/editor.editor.rich_text.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/embed.button.media_browser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/entity_browser.browser.media_browser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/field.storage.media.embed_code.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/field.storage.media.field_media_in_library.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/field.storage.media.image.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/filter.format.rich_text.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/user.role.media_creator.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/config/install/user.role.media_manager.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/css/browser.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/css/browser.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/help/cke_widget.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/help/media_roles.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/js/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/lightning_media.features.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/lightning_media.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/lightning_media.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/lightning_media.libraries.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/lightning_media.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/lightning_media.services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/core.entity_form_display.media.document.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/core.entity_form_display.media.document.media_browser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/core.entity_view_display.media.document.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/core.entity_view_display.media.document.embedded.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/field.field.media.document.field_document.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/field.field.media.document.field_document_size.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/field.field.media.document.field_media_in_library.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/field.field.media.document.field_mime_type.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/field.storage.media.field_document.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/field.storage.media.field_document_size.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/field.storage.media.field_mime_type.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/config/install/media_entity.bundle.document.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/lightning_media_document.features.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_document/lightning_media_document.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/config/install/core.entity_form_display.media.image.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/config/install/core.entity_form_display.media.image.media_browser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/config/install/core.entity_view_display.media.image.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/config/install/core.entity_view_display.media.image.embedded.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/config/install/entity_browser.browser.image_browser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/config/install/field.field.media.image.field_media_in_library.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/config/install/field.field.media.image.image.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/config/install/media_entity.bundle.image.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/lightning_media_image.features.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/lightning_media_image.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/lightning_media_image.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_image/lightning_media_image.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/config/install/core.entity_form_display.media.instagram.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/config/install/core.entity_form_display.media.instagram.media_browser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/config/install/core.entity_view_display.media.instagram.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/config/install/core.entity_view_display.media.instagram.embedded.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/config/install/field.field.media.instagram.embed_code.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/config/install/field.field.media.instagram.field_media_in_library.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/config/install/media_entity.bundle.instagram.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/lightning_media_instagram.features.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/lightning_media_instagram.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/lightning_media_instagram.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_instagram/lightning_media_instagram.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/config/install/core.entity_form_display.media.tweet.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/config/install/core.entity_form_display.media.tweet.media_browser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/config/install/core.entity_view_display.media.tweet.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/config/install/core.entity_view_display.media.tweet.embedded.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/config/install/field.field.media.tweet.embed_code.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/config/install/field.field.media.tweet.field_media_in_library.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/config/install/media_entity.bundle.tweet.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/lightning_media_twitter.features.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/lightning_media_twitter.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/lightning_media_twitter.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_twitter/lightning_media_twitter.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/config/install/core.entity_form_display.media.video.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/config/install/core.entity_form_display.media.video.media_browser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/config/install/core.entity_view_display.media.video.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/config/install/core.entity_view_display.media.video.embedded.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/config/install/field.field.media.video.field_media_in_library.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/config/install/field.field.media.video.field_media_video_embed_field.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/config/install/field.storage.media.field_media_video_embed_field.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/config/install/media_entity.bundle.video.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/lightning_media_video.features.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/lightning_media_video.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/lightning_media_video.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/modules/lightning_media_video/lightning_media_video.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/sass/browser.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/Annotation/MediaBundleResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/BundleResolverBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/BundleResolverInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/MediaBundleResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/Plugin/EntityBrowser/Widget/EmbedCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/Plugin/EntityBrowser/Widget/EntityFormProxy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/Plugin/EntityBrowser/Widget/FileUpload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/Plugin/Field/FieldFormatter/SVGAwareImageFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/Plugin/MediaBundleResolver/EmbedCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/Plugin/MediaBundleResolver/FileUpload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/PreviewHandler/EmbedCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/PreviewHandlerBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/PreviewHandlerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/src/SourceFieldTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_media/tests/src/Kernel/MediaBundleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/core.entity_form_display.scheduled_update.multiple_node_embargo.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/core.entity_form_display.scheduled_update.node_embargo.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/field.field.node.page.scheduled_update.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/field.field.scheduled_update.multiple_node_embargo.field_moderation_state_1.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/field.field.scheduled_update.node_embargo.field_moderation_state.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/field.storage.node.scheduled_update.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/field.storage.scheduled_update.field_moderation_state.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/field.storage.scheduled_update.field_moderation_state_1.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/scheduled_updates.scheduled_update_type.multiple_node_embargo.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/scheduled_updates.scheduled_update_type.node_embargo.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/config/install/views.view.moderation_history.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/help/node_moderation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/help/workflow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/lightning_workflow.features.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/lightning_workflow.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/lightning_workflow.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/lightning_workflow.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_workflow/src/Plugin/views/field/NodeBulkForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.theme" />
+    </list>
+    <ignored path="ccg_kickstart.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ccg_kickstart" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="nhs.info" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/nhs/nhs.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docroot/core/install.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docroot/profiles/contrib/ccg/ccg.info.yml" />
+        <option value="$PROJECT_DIR$/docroot/profiles/contrib/ccg_kickstart/themes/ccg/ccg.info.yml" />
+        <option value="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/ccg_kickstart.info.yml" />
+        <option value="$PROJECT_DIR$/docroot/profiles/contrib/lightning/lightning.info.yml" />
+        <option value="$PROJECT_DIR$/docroot/core/themes/seven/templates/install-page.html.twig" />
+        <option value="$PROJECT_DIR$/docroot/sites/development.services.yml" />
+        <option value="$PROJECT_DIR$/docroot/core/themes/seven/seven.theme" />
+        <option value="$PROJECT_DIR$/docroot/core/install.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccg_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccg_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccg_kickstart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccg_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccg_kickstart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docroot" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccg_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccg_kickstart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docroot" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="configurable.group.editor" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docroot/profiles/custom" />
+      <recent name="$PROJECT_DIR$/docroot/profiles/contrib/ccg/modules/lightning_features" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docroot/profiles/contrib/ccg/modules" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e82ec35a-fc32-4fbb-a489-e3bf62a4c2e4" name="Default" comment="" />
+      <created>1476454485742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1476454485742</updated>
+      <workItem from="1476454486937" duration="4101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4101000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/ccg/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/lightning.services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/ccg_kickstart.profile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/lightning.extend.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/config/install/core.entity_form_display.block_content.basic.default.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/config/install/core.entity_view_display.block_content.basic.default.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/sites/default/default.settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/core/includes/install.core.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9763">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/config/install/block.block.bartik_branding.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/config/install/field.field.block_content.basic.body.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/lightning.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/sites/default/default.services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="616" column="67" selection-start-line="616" selection-start-column="63" selection-end-line="616" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/ccg_kickstart.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/core/themes/classy/classy.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/lightning.install">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/sites/development.services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/modules/lightning_features/lightning_core/src/Form/SettingsForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1352">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/core/themes/seven/seven.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/core/themes/seven/templates/install-page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/core/themes/seven/config/schema/seven.schema.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/.entity-helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/package">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2546">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/src/Form/ExtensionSelectForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/VERSIONS.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-115">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1184">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ScriptHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/core/profiles/minimal/minimal.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/modules/lightning_features/lightning_core/config/install/lightning_core.settings.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/help/content_roles.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/build-lightning.make">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/lightning.profile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/src/Extender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/core/themes/seven/seven.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="133" column="53" selection-start-line="133" selection-start-column="53" selection-end-line="133" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/nhs/nhs.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/core/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
