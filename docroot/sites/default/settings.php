@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'hUIPfzR-2byKRFRvwqSZnZj3BSmRBPcz1WoseQ78mdr5SUMuOoLhiHikHTYq77c38y1clrw6KQ';
 
 /**
  * Deployment identifier.
@@ -752,3 +752,15 @@ $settings['file_scan_ignore_directories'] = [
 # if (file_exists(__DIR__ . '/settings.local.php')) {
 #   include __DIR__ . '/settings.local.php';
 # }
+$databases['default']['default'] = array (
+  'database' => 'ccg_kickstart',
+  'username' => 'root',
+  'password' => 'root',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '8889',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'ccg_kickstart';
+$config_directories['sync'] = 'sites/default/files/config_HMs2PrIWpGrll48lQf1tGCXTXMYM8TbZ-TfmdWxl2-pNllG-TqUNnn6Gg0b8mIl31ZZ2ZG7fYA/sync';

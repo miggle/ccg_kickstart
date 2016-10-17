@@ -1,0 +1,5 @@
+skeleton:
+  css:
+    base:
+      skeleton/css/normalize.css: {}
+      skeleton/css/skeleton.css: {}

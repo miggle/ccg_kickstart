@@ -1,8 +1,10 @@
 name: CCG Kickstart
 type: profile
 description: 'A CCG starter distribution based on Lightning.'
+version: 8.x.1.x
 core: 8.x
-
+distribution:
+  name: CCG Kickstart
 # Required modules
 dependencies:
   # core
@@ -47,4 +49,5 @@ dependencies:
 themes:
   - bartik
   - seven
+  - omega
   - ccg

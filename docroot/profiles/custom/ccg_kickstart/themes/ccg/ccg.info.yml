@@ -1,3 +1,6 @@
-name: CCG theme
-description: The theme for the CCG sites
+name: 'CCG theme'
+type: theme
+description: 'The theme for NHS CCGs'
 core: 8.x
+libraries:
+  - ccg/skeleton
