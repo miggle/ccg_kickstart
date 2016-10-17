@@ -2,128 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82ec35a-fc32-4fbb-a489-e3bf62a4c2e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_account_menu.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_branding.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_breadcrumbs.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_content.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_footer.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_help.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_local_actions.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_local_tasks.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_main_menu.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_messages.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_page_title.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.bartik_powered.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.seven_breadcrumbs.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.seven_content.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.seven_help.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.seven_local_actions.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.seven_login.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.seven_messages.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.seven_primary_local_tasks.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block.block.seven_secondary_local_tasks.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/block_content.type.basic.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/core.entity_form_display.block_content.basic.default.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/core.entity_view_display.block_content.basic.default.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/core.extensions.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.block_content.basic.body.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.node.landing_page.body.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.node.landing_page.field_landing_page_have_your_say.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.node.landing_page.field_landing_page_hys_link.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.node.landing_page.field_meta_tags.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.node.news.body.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.node.news.field_image.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.node.news.field_news_tags.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.node.page.body.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.node.page.field_image.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.field.node.page.field_meta_tags.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.storage.node.body.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.storage.node.field_image.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.storage.node.field_landing_page_have_your_say.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.storage.node.field_landing_page_hys_link.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.storage.node.field_meta_tags.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/field.storage.node.field_news_tags.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/node.type.landing_page.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/node.type.news.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/node.type.page.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/pathauto.pattern.news_pattern.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/pathauto.pattern.page_pattern.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/system.theme.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/user.role.administrator.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/js/nhs.fs.widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/scss/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/scss/_branding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/scss/_fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/scss/styles.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_admin-block-content.html.twig_f480135b2e9228aa18471b1c13659639f159f728484ba1b7a655dd3aed360968/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_admin-block-content.html.twig_f480135b2e9228aa18471b1c13659639f159f728484ba1b7a655dd3aed360968/b00c82a657a60aa752059c1f65206001bc59e6f2d4493dfd3c22a3628ee35f93.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_admin-block.html.twig_2bc67370f8eb2690662471258713602c51197eb1b33b0568844a16fd18613d89/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_admin-block.html.twig_2bc67370f8eb2690662471258713602c51197eb1b33b0568844a16fd18613d89/4a26cf8b7ea5fa3f9b779b8425036bc1a1927664a8db2f219ef06dcc797a1aea.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_admin-page.html.twig_41569359e829a9c93c93d9a15052ac99431d58f6c8608c9f3bac62f6d3e266c6/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_admin-page.html.twig_41569359e829a9c93c93d9a15052ac99431d58f6c8608c9f3bac62f6d3e266c6/ddb58c246ade2b279f2f237ea7a26e77a0e3156e2caa68a3c4b9880d3a79f8a7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_container.html.twig_b8dd95c8fed9e47baeb623356f1f1b499d0ea5d462da60c4404ec983d607d71f/74eb508259b953a681e99470b1cade8d1f38a9eb907beca73b857e165e465855.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_details.html.twig_83707e5767a4bd7dbc1293eb90fb035fcf3763c20d0c0517556a9a285757515d/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_details.html.twig_83707e5767a4bd7dbc1293eb90fb035fcf3763c20d0c0517556a9a285757515d/ffb51243c31c90ffa263425832375acbeda44e1a3fdb0ee6afd7487edb0ffed5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_fieldset.html.twig_b1b06eba646333e7115ea8340a650a584514ea092862e1f4665656ecd53c93df/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_fieldset.html.twig_b1b06eba646333e7115ea8340a650a584514ea092862e1f4665656ecd53c93df/c53e138355aeaf936886c3ed8b9ac6b20e46531e8c2718f0ac62069b1925b3d5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_form-element-label.html.twig_46615d98ad16002ffbc5f6c8fb662eea858c7f07e39e3f446b2ad9fcc9aa9c83/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_form-element-label.html.twig_46615d98ad16002ffbc5f6c8fb662eea858c7f07e39e3f446b2ad9fcc9aa9c83/4718348207d5f00d7d189549938a55ecd21f8fc495a29b0a0f50ead549a4b447.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_form-element.html.twig_57523e3b7372360540ee73d32b07a2f07acf80f5bff16c5dbc6ff33fb82ce96f/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_form-element.html.twig_57523e3b7372360540ee73d32b07a2f07acf80f5bff16c5dbc6ff33fb82ce96f/01c6493bb6349eb22c49fad210fd40ea1dc0b35a7db1b58928e529046fb65160.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_form.html.twig_e1de565b1d2e5368a57c7fcd91f14158cbef33b55ad123c2b1339be7cc9ab53f/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_form.html.twig_e1de565b1d2e5368a57c7fcd91f14158cbef33b55ad123c2b1339be7cc9ab53f/333107f6b2cfcca48f246bea3cf1f1ae951486e5593fcdcaa35b9be65322f795.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_html.html.twig_fec7108eff08980ba03bced2f844172602750a2559f03e56adf1d97fd311c473/15ccb5899c9c2e13c9f3bbf9ba133398fcc97ed1b8e91fa6b5246f28171c81f2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_input.html.twig_9d282f9c9253a004a09304336f36b058a6067c18cc0f7afe26541960f9a495fd/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_input.html.twig_9d282f9c9253a004a09304336f36b058a6067c18cc0f7afe26541960f9a495fd/ed4f225a61fb40dbbcc98fef4a22075f44f9b054975cc33f73078cdfba5dca4b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_links.html.twig_d99ab22f4b3ea8b559f6b30cc7273a8698754f33bc87062fd9a4cb0fe73d77d5/86e63ed587cf64cd8dfa2c5aa4f2c2b518b0327247e8806623ac1b570f65a137.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_menu--toolbar.html.twig_8a96476647d93ca24a0a623156b8d9f2a60dbf6d9aea8d39f6cf4cfdf736f497/48fea07c46798227dedac073d636b5e095d9294af1b6e612099892cc2d74d479.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_page.html.twig_d881eda9b2426970715d5f8adf33acb0621a79c2bb782217bfc3172fe6a2239d/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_page.html.twig_d881eda9b2426970715d5f8adf33acb0621a79c2bb782217bfc3172fe6a2239d/6072b01387a20bcbfbb397c7566e312318b8faecd696b8e29750031d29ea5562.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_pager.html.twig_6b2189483c6fc432699687095969369e8dfd04b173aba2bf2e47692407b0a065/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_pager.html.twig_6b2189483c6fc432699687095969369e8dfd04b173aba2bf2e47692407b0a065/b4432d19c8da02b23409ee96adbfe9581bd53a5f002ba78791ac0dbe83c0e57e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_radios.html.twig_089003bf58ce208b4d58cad0162a0213381c626d2dfd048f45157a7bc7c12f4a/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_radios.html.twig_089003bf58ce208b4d58cad0162a0213381c626d2dfd048f45157a7bc7c12f4a/b0308f90b2f4ce7fc9e737fe722e3e8373b63ab61cf3f841b61176e88ac659c5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_region.html.twig_c31d0a48bd2dcfb08188e30828b31bb6436e0b37e20294ddcb4bdf7eb90c0a5a/537d6840f5af8c958b9afeaff2963887478a2f975d67c63a22377af8b6df9c31.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_select.html.twig_7142fdb6b59d65ccf87989ce90dcc49f0f9ba081e4cedeb3179bbfd96b8f74d3/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_select.html.twig_7142fdb6b59d65ccf87989ce90dcc49f0f9ba081e4cedeb3179bbfd96b8f74d3/f64cf5f5ff32358cd3359606037583f3c7ebea4ceff9d366192655d516d8feef.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_status-messages.html.twig_eac365e071faa70db3e3fd8b50655d5f34e8d8c6073f792d9035b5efa3dea7e9/7cd88b299d05168d909798b40a0afe648c141f6c7cc332413b66c39b76f78d56.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_status-report.html.twig_c05f099eb7e8af8458b0fbb34c1c78dce7607877698e5338a7c736697a0ed282/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_status-report.html.twig_c05f099eb7e8af8458b0fbb34c1c78dce7607877698e5338a7c736697a0ed282/9e82903f0e749f50229ff7be864b0cdb71434bb197158657f408b881f8b5c892.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_system-config-form.html.twig_dc3ade07c7a16ac3a4b759dc32578dbc23e449736c0582a6b811b00ddeb42965/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_system-config-form.html.twig_dc3ade07c7a16ac3a4b759dc32578dbc23e449736c0582a6b811b00ddeb42965/95e01af72470e965aac34adc3675a97fd0dedc280239920581a0af056080717e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_table.html.twig_fc7161b11f5f6bc20d077f40b9ba524d32b6a8936028ade5d2fc683cfb5d2751/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_table.html.twig_fc7161b11f5f6bc20d077f40b9ba524d32b6a8936028ade5d2fc683cfb5d2751/fba94261e66b93fdd5db3c09899131bd181c363abf244aef057d357bd38f3501.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_tablesort-indicator.html.twig_43bec7325b521941814443765c1f387f26d05e79db44e7209876af7f129e1f8c/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_tablesort-indicator.html.twig_43bec7325b521941814443765c1f387f26d05e79db44e7209876af7f129e1f8c/d58a7e6d4e9c78a51e416498928b270d7ee1f09916ce1f5e22554968188acac1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_textarea.html.twig_72b4b9470f29015f8a65f3799fdf9be42f0bf3cf4e368f10d908c7e4e5cefe17/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_textarea.html.twig_72b4b9470f29015f8a65f3799fdf9be42f0bf3cf4e368f10d908c7e4e5cefe17/8819e3eabecaaae7aee27b298037a61c208a9e60d73eb3adf63eb36414d7cab0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_token-tree-link.html.twig_a0b5af9054b910a16c7f3fe7604d04e5d9b844d56b4b39be926f6acbd6658b4e/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_token-tree-link.html.twig_a0b5af9054b910a16c7f3fe7604d04e5d9b844d56b4b39be926f6acbd6658b4e/322fbcaf8dd7f5c985a652b832c0464a47f6f63f5a51627b82ffdb5a64921a34.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_toolbar.html.twig_5e22e8c29f3adc55f3c242d06f6cd4f8b413d8c29dd96176d982d1daeb26bc92/bd55a74ee26215deb7b2e52a823d1175f527f7ed9a7b863192c797947fc9277c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_username.html.twig_5b75aec720f9fa8af9df5b559e081b8698a04098d911aa24ce80bcf68e5c807e/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_username.html.twig_5b75aec720f9fa8af9df5b559e081b8698a04098d911aa24ce80bcf68e5c807e/1fd6b716412604a428a73ba55ff97dae7892f8de1d54233bd9a92985822d3490.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_vertical-tabs.html.twig_67eb7362304438c27fec1ce88adc3a673c0465f7d21222169ceb2d7b31eb60cf/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_vertical-tabs.html.twig_67eb7362304438c27fec1ce88adc3a673c0465f7d21222169ceb2d7b31eb60cf/475e6fbc7a93cdfef0e2401194508a14d4b516e7be3530c8643c8315f7a3206c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_views-exposed-form.html.twig_3b3073d528be7fc341fdc2f0f9edae9c50ca5512a97904a59df0ae2119e9ce29/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_views-exposed-form.html.twig_3b3073d528be7fc341fdc2f0f9edae9c50ca5512a97904a59df0ae2119e9ce29/2818fbf063726708ee4de4728bb1debd9031b5238b8d86c67a42ee2dab834b89.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_views-view-table.html.twig_30a7b86ed2c2b927a5d7ee729aaf5ce937d7fa4465e3e561d49a16f18f2756f1/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_views-view-table.html.twig_30a7b86ed2c2b927a5d7ee729aaf5ce937d7fa4465e3e561d49a16f18f2756f1/7c72f19880059d9a1640c6293d3397e30c8bc0dc8a10c90d09f991f816097ed8.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_views-view.html.twig_ce6727f946ce6755c67ba9c4a9b3607e1c0be9c96b78dffd32db8156381ba1ab/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/sites/default/files/php/twig/367a13bd_views-view.html.twig_ce6727f946ce6755c67ba9c4a9b3607e1c0be9c96b78dffd32db8156381ba1ab/8f0a78dd249643be1e7cf92fcfc246c6168e4b70f65765e892413d11711f7132.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/nhs/css/fonts/Questrial-Regular-webfont.eot" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/fonts/Questrial-Regular-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/nhs/css/fonts/Questrial-Regular-webfont.svg" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/fonts/Questrial-Regular-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/nhs/css/fonts/Questrial-Regular-webfont.ttf" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/fonts/Questrial-Regular-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/nhs/css/fonts/Questrial-Regular-webfont.woff" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/fonts/Questrial-Regular-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/nhs/css/fonts/SIL OFL Font License Questrial.txt" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/fonts/SIL OFL Font License Questrial.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/ccg_kickstart.info.yml" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/ccg_kickstart.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.info.yml" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.libraries.yml" afterPath="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.libraries.yml" />
     </list>
     <ignored path="ccg_kickstart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,16 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ccg.info.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.info.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="block--system-branding-block.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docroot/core/themes/classy/templates/block/block--system-branding-block.html.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -194,11 +64,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/scss/_fonts.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/sites/default/settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1390">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -224,16 +114,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docroot/core/themes/classy/templates/content/node.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1256">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -253,7 +133,6 @@
         <option value="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/ccg_kickstart.profile" />
         <option value="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/ccg_kickstart.install" />
         <option value="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.theme" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/config.rb" />
         <option value="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/core.extensions.yml" />
         <option value="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/config/install/system.theme.yml" />
@@ -267,6 +146,7 @@
         <option value="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/scss/_base.scss" />
         <option value="$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -877,12 +757,12 @@
       <workItem from="1476459473277" duration="3543000" />
       <workItem from="1476626538666" duration="573000" />
       <workItem from="1476704796212" duration="1668000" />
-      <workItem from="1476708388188" duration="9807000" />
+      <workItem from="1476708388188" duration="10087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20552000" />
+    <option name="totallyTimeSpent" value="20832000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -934,21 +814,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/js/global.js" />
-    <entry file="file://$PROJECT_DIR$/docroot/core/lib/Drupal/Core/Extension/ExtensionDiscovery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="237" column="36" selection-start-line="237" selection-start-column="36" selection-end-line="237" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docroot/profiles/contrib/lightning/lightning.info.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/ccg.info.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1307,18 +1172,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docroot/profiles/custom/ccg_kickstart/themes/ccg/scss/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/sites/default/default.settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3670">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1390">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>

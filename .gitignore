@@ -4,3 +4,4 @@
 settings.local.php
 docroot/sites/*.local
 docroot/sites/*/files
+bin
