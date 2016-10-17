@@ -6,3 +6,11 @@
     weight: normal;
   }
 }
+
+.site-logo {
+  float: right;
+  img {
+    width: 100%;
+    max-width: $max-logo-width;
+  }
+}
