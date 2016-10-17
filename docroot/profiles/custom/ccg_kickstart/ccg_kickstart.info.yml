@@ -40,6 +40,10 @@ dependencies:
   - views_ui
   # contrib
   - metatag
+  - admin_toolbar
+  - admin_toolbar_tools
+  - field_group
+  - pathauto
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
@@ -49,5 +53,5 @@ dependencies:
 themes:
   - bartik
   - seven
-  - omega
+  - classy
   - ccg

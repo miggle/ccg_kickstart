@@ -3,3 +3,7 @@ skeleton:
     base:
       skeleton/css/normalize.css: {}
       skeleton/css/skeleton.css: {}
+global-styling:
+  css:
+    component:
+      css/styles.css: {}
