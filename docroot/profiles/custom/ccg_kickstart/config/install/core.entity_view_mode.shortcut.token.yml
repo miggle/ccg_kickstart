@@ -1,0 +1,10 @@
+uuid: dee8dd7b-e9ef-40b6-ba51-3b70ce706e08
+langcode: en
+status: true
+dependencies:
+  module:
+    - shortcut
+id: shortcut.token
+label: Token
+targetEntityType: shortcut
+cache: true

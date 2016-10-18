@@ -1,26 +1,89 @@
-body{
+html {
+  font-size: 100%;
+}
+
+body {
   font:{
     family: arial, helvetica, sans-serif;
   }
+  font-size: 0.75em;
   line-height: 1.2em;
   background-color: $body_bg;
 }
 
+.page-title {
+  color: $blue-text;
+  font-family: 'QuestrialRegular', "Helvetica Neue", sans-serif;
+  font-size: 1.8em;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.2em;
+}
+
 header {
   padding: 35px 20px 25px 20px;
-  .block-menu {
+  .region-navigation {
+    position: relative;
     background: $pale-blue;
-    overflow: auto;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     ul.menu {
+      @media (max-width: $medium-max) {
+        padding-top: 0;
+        li {
+          float: none;
+          border-right: none;
+          &.menu-item--active-trail {
+            a {
+              background-color: transparent;
+            }
+          }
+        }
+      }
+      padding-top: 6px;
       li {
         float: left;
         text-transform: uppercase;
+        border-right: 1px solid #00b0d8;
+        &:last-child {
+          border-right: none;
+        }
+        &.menu-item--active-trail {
+          a {
+            margin: 0 3px;
+            padding-top: 3px;
+            padding-bottom: 6px;
+            background-color: white;
+          }
+        }
         a {
           color: $blue-text;
           text-decoration: none;
+          padding: 0 0.3em;
+          &:hover {
+            color: darken($blue-text, 10%);
+          }
+          &.is-active {
+            color: $dark-blue-text;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    @media (max-width: $medium-max) {
+      .mobile-menu-icon {
+        display: block;
+        position: absolute;
+        top: 3px;
+        right: 10px;
+      }
+      ul.menu {
+        li {
+          display: block;
+          margin: 10px 0;
+          float: none;
+          font-size: 13pt;
         }
       }
     }
@@ -33,10 +96,17 @@ footer a:link, a:visited {
 }
 
 .layout-container {
-  width: 960px;
-  margin: 0 auto;
+  @media (min-device-width: 980px) and (min-width: 980px),
+  (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+    width: 960px;
+    margin: 0 auto;
+  }
   background: white;
   padding: 0 10px;
+}
+
+.region-content {
+  padding: 0 30px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -48,4 +118,15 @@ h1, h2, h3, h4, h5, h6{
 
 p, li {
   color: $dark-grey;
+}
+
+nav.tabs {
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+  line-height: 25px;
+  left: 0;
+  background: white;
+  width: 100%;
+  z-index: 25;
 }

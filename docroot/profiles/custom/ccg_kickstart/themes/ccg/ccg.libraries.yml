@@ -7,3 +7,10 @@ global-styling:
   css:
     component:
       css/styles.css: {}
+menu:
+  js:
+    js/menu.js: {}
+  dependencies:
+    - core/matchmedia
+    - core/jquery
+    - core/drupal

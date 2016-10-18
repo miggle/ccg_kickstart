@@ -6,8 +6,10 @@ base theme: classy
 libraries:
   - ccg/skeleton
   - ccg/global-styling
+  - ccg/menu
 regions:
-  header: Header
+  branding: Header branding
+  navigation: Header navigation
   featured: Featured
   content: Content
   sidebar_first: First sidebar

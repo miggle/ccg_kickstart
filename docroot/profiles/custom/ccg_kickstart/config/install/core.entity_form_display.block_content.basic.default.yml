@@ -1,3 +1,4 @@
+uuid: 2b0cb221-4b64-4f0b-bb27-84367cd55fb4
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,9 @@ dependencies:
     - field.field.block_content.basic.body
   module:
     - text
+    - workbench_moderation
+_core:
+  default_config_hash: GAd7hovzsOttC5L0PaiDTGKalT2YHmbSm3Adn3aYl2M
 id: block_content.basic.default
 targetEntityType: block_content
 bundle: basic

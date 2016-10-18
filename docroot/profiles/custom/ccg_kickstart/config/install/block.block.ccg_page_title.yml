@@ -1,0 +1,20 @@
+uuid: e511171c-0aca-49f7-925d-10f82be2a1b3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ccg
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: ccg_page_title
+theme: ccg
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
