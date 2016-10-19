@@ -29,8 +29,8 @@
 {% macro menu_links(items, attributes, menu_level) %}
   {% import _self as menus %}
   {% if items %}
-<span class="mobile-menu-icon"></span>
     {% if menu_level == 0 %}
+<span class="mobile-menu-icon"></span>
 <ul{{ attributes.addClass('menu') }}>
     {% else %}
     <ul class="menu">

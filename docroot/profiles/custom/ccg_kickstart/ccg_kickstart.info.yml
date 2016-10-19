@@ -47,11 +47,17 @@ dependencies:
   - search_api
   - search_api_db
   - search_api_page
+  - file_browser
+  - file_entity
+  - context
+  - context_ui
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
   - lightning_layout
   - lightning_media
+  # CCG Kickstart functionality
+  - ccg_admin_alterations
 
 themes:
   - bartik

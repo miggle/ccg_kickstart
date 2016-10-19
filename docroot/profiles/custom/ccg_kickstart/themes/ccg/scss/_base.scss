@@ -11,6 +11,11 @@ body {
   background-color: $body_bg;
 }
 
+ul ul, ul ol, ol ol, ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 100%;
+}
+
 .page-title {
   color: $blue-text;
   font-family: 'QuestrialRegular', "Helvetica Neue", sans-serif;
@@ -22,16 +27,47 @@ body {
 
 header {
   padding: 35px 20px 25px 20px;
+  .region-branding {
+    margin-bottom: 15px;
+    .site-slogan {
+      margin-top: 30px;
+      @media (max-width: $medium-max) {
+        font-size: 20pt;
+      }
+      @media (max-width: $skeleton-small-max) {
+        font-size: 15pt;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-top: 0;
+        float: right;
+      }
+    }
+  }
   .region-navigation {
     position: relative;
     background: $pale-blue;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    .menu-item--collapsed, .menu-item--expanded {
+      list-style-image: none;
+      list-style-type: none;
+    }
     ul.menu {
       margin-bottom: 0;
       padding-top: 6px;
       li {
+        ul.menu {
+          @media (min-width: $large-min) {
+            position: absolute;
+            top: 5px;
+            left: 0;
+          }
+          li {
+            text-transform: none;
+            margin-bottom: 0;
+          }
+        }
         float: left;
         text-transform: uppercase;
         border-right: 1px solid #00b0d8;
@@ -83,6 +119,14 @@ header {
           font-size: 13pt;
           border-right: none;
           border-bottom: 1px solid darken($pale-blue, 8%);
+          ul.menu {
+            margin-left: 0;
+            padding-left: 10px;
+            li {
+              border-bottom: none;
+              font-size: 11pt;
+            }
+          }
           &:last-child {
             border-bottom: none;
           }

@@ -3,7 +3,7 @@
   'use strict';
 
   function hideOrShowMenu(context, settings, toggle) {
-    var menu = $(context).find('.block-menu.menu--main ul.menu');
+    var menu = $(context).find('.block-menu.menu--main > ul.menu');
     if (menu.length) {
       var mobileScreen = window.matchMedia('(max-width: 760px)');
       if (mobileScreen.matches) {
