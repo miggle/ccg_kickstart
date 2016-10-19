@@ -62,14 +62,18 @@
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="row">
-      <div class="layout-content nine columns">
-        {{ page.content }}
-      </div>{# /.layout-content #}
 
       {% if page.sidebar_second %}
-        <aside class="layout-sidebar-second three columns" role="complementary">
+        <div class="layout-content eight columns">
+        {{ page.content }}
+        </div>{# /.layout-content #}
+        <aside class="layout-sidebar-second four columns" role="complementary">
           {{ page.sidebar_second }}
         </aside>
+      {% else %}
+        <div class="layout-content twelve columns">
+        {{ page.content }}
+        </div>{# /.layout-content #}
       {% endif %}
     </div>
   </main>

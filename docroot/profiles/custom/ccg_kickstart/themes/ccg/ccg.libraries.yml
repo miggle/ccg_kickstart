@@ -7,6 +7,10 @@ global-styling:
   css:
     component:
       css/styles.css: {}
+choices:
+  css:
+    component:
+      css/nhs.fs.widget.css: {}
 menu:
   js:
     js/menu.js: {}
