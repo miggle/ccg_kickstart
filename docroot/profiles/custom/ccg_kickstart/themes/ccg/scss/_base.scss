@@ -103,6 +103,7 @@ header {
       }
     }
     @media (max-width: $medium-max) {
+      padding-bottom: 6px;
       .mobile-menu-icon {
         display: block;
         position: absolute;
