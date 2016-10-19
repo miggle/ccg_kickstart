@@ -49,18 +49,21 @@ header {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    padding: 3px 0;
     .menu-item--collapsed, .menu-item--expanded {
       list-style-image: none;
       list-style-type: none;
     }
+    > nav > ul.menu {
+      padding-top: 2px;
+    }
     ul.menu {
       margin-bottom: 0;
-      padding-top: 6px;
       li {
         ul.menu {
           @media (min-width: $large-min) {
             position: absolute;
-            top: 5px;
+            top: 6px;
             left: 0;
           }
           li {
@@ -75,7 +78,7 @@ header {
           border-right: none;
         }
         &.menu-item--active-trail {
-          a {
+          > a {
             margin: 0 3px;
             padding-top: 3px;
             padding-bottom: 8px;
@@ -150,17 +153,13 @@ footer a:link, a:visited {
   text-decoration: none;
 }
 
-.layout-container {
-  @media (min-device-width: 980px) and (min-width: 980px),
-  (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
-    width: 960px;
-    margin: 0 auto;
-  }
+.container {
+  width: 100%;
   background: white;
   padding: 0 10px;
 }
 
-.region-content {
+.main-inner-container {
   padding: 0 30px;
 }
 
@@ -169,6 +168,12 @@ h1, h2, h3, h4, h5, h6{
     family: arial, helvetica, sans-serif;
   }
   line-height: 1.3em;
+}
+
+h2.sidebar-block-title {
+  color: #011e49;
+  font-size: 1.2em;
+  line-height: 1.1em;
 }
 
 p, li {

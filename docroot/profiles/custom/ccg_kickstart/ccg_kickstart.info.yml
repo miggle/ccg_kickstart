@@ -51,6 +51,7 @@ dependencies:
   - file_entity
   - context
   - context_ui
+  - twitter_block
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
