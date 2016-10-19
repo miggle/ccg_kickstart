@@ -58,6 +58,7 @@ dependencies:
   - lightning_media
   # CCG Kickstart functionality
   - ccg_admin_alterations
+  - ccg_choice_widget
 
 themes:
   - bartik
