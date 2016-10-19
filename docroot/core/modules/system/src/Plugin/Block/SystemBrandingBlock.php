@@ -74,6 +74,10 @@ class SystemBrandingBlock extends BlockBase implements ContainerFactoryPluginInt
   public function blockForm($form, FormStateInterface $form_state) {
     // Get the theme.
     $theme = $form_state->get('block_theme');
+    // In the case block_theme isn't set use the default theme.
+    if (!$theme) {
+      $theme = \Drupal::config('system.theme')->get('default');
+    }
 
     // Get permissions.
     $url_system_theme_settings = new Url('system.theme_settings');
