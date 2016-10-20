@@ -1,0 +1,38 @@
+.region-sidebar-second {
+  .block {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #007ac3;
+    &:first-child {
+      padding-top: 0;
+      margin-top: 0;
+      border-top: none;
+    }
+  }
+}
+
+.views-field-title {
+  margin-bottom: 10px;
+}
+
+.view-news {
+  .field-content {
+    display: block;
+  }
+  .view-footer {
+    margin-bottom: 30px;
+  }
+  ul {
+    list-style-type: none;
+    li {
+      margin-left: 0;
+      padding-left: 0;
+      margin-top: 13px;
+      padding-bottom: 13px;
+      border-bottom: 1px solid #cccccc;
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+}

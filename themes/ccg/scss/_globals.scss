@@ -8,3 +8,12 @@
   width: 21px;
   height: 19px;
 }
+
+.left {
+  float: left;
+  &.medium {
+    @media (max-width: $medium-max) {
+      float: none;
+    }
+  }
+}

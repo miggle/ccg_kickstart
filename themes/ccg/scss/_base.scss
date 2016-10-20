@@ -16,6 +16,20 @@ ul ul, ul ol, ol ol, ol ul {
   font-size: 100%;
 }
 
+pre, blockquote, dl, figure, table, p, ul, ol, form {
+  margin-bottom: 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: 300;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
 .page-title {
   color: $blue-text;
   font-family: 'QuestrialRegular', "Helvetica Neue", sans-serif;
@@ -56,6 +70,9 @@ header {
     }
     > nav > ul.menu {
       padding-top: 2px;
+      li.menu-item--active-trail a {
+        margin: 0 3px;
+      }
     }
     ul.menu {
       margin-bottom: 0;
@@ -79,7 +96,6 @@ header {
         }
         &.menu-item--active-trail {
           > a {
-            margin: 0 3px;
             padding-top: 3px;
             padding-bottom: 8px;
             background-color: white;
@@ -96,7 +112,7 @@ header {
           text-decoration: none;
           padding: 0 0.3em;
           &:hover {
-            color: darken($blue-text, 10%);
+            color: $dark-blue-text;
           }
           &.is-active {
             color: $dark-blue-text;
@@ -125,10 +141,25 @@ header {
           border-bottom: 1px solid darken($pale-blue, 8%);
           ul.menu {
             margin-left: 0;
+            margin-top: 10px;
+            padding-bottom: 10px;
             padding-left: 10px;
+            padding-top: 10px;
+            margin-right: 0;
+            background: darken($pale-blue, 7%);
             li {
+              margin-top: 5px;
+              padding-top: 5px;
+              padding-bottom: 0;
               border-bottom: none;
               font-size: 11pt;
+              &:first-child {
+                padding-top: 0;
+                margin-top: 0;
+              }
+              a {
+                color: $dark-blue-text;
+              }
             }
           }
           &:last-child {
@@ -170,10 +201,13 @@ h1, h2, h3, h4, h5, h6{
   line-height: 1.3em;
 }
 
-h2.sidebar-block-title {
+h2.sidebar-block-title, .region-sidebar-second h2 {
   color: #011e49;
   font-size: 1.2em;
   line-height: 1.1em;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+  margin: 0;
 }
 
 p, li {

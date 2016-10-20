@@ -1,7 +1,6 @@
 img.responsive {
   max-width: 100%;
-  @media (max-device-width: 979px) and (max-width: 979px),
-  (min-device-width: 1023px) and (max-width: 1023px) {
+  @media (max-width: $medium-max) {
     width: 100%;
     height: auto;
   }

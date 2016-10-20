@@ -52,6 +52,7 @@ dependencies:
   - context
   - context_ui
   - twitter_block
+  - responsive_image
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
