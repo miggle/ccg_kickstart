@@ -16,5 +16,5 @@ Then you can simply run the following to build the site code-base for the CCG Ki
 $ composer create-project miggle/ccg_kickstart_installer MY_PROJECT --no-interaction
 ```
 Composer will create a new directory called MY_PROJECT containing a ```docroot``` 
-directory with a full Lightning code base therein.
+directory with a full CCG Kickstart code base therein.
 You can then install it like you would any other Drupal site.
