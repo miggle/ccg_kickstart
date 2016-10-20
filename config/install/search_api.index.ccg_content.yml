@@ -1,0 +1,42 @@
+uuid: 9cf7410f-a082-451c-bcba-667303702753
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.server.ccg_search
+  module:
+    - search_api
+    - node
+id: ccg_content
+name: 'CCG content'
+description: 'The index for all the CCG site content.'
+read_only: false
+field_settings: {  }
+processor_settings:
+  add_url:
+    plugin_id: add_url
+    settings: {  }
+  aggregated_field:
+    plugin_id: aggregated_field
+    settings: {  }
+  rendered_item:
+    plugin_id: rendered_item
+    settings: {  }
+options:
+  index_directly: true
+  cron_limit: 50
+datasource_settings:
+  'entity:node':
+    plugin_id: 'entity:node'
+    settings:
+      bundles:
+        default: true
+        selected: {  }
+      languages:
+        default: true
+        selected: {  }
+tracker_settings:
+  default:
+    plugin_id: default
+    settings: {  }
+server: ccg_search

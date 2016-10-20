@@ -1,0 +1,9 @@
+uuid: a46059f3-a862-489c-a6a7-4d8ff5f67e47
+langcode: en
+status: true
+dependencies: {  }
+name: 'News tags'
+vid: news_tags
+description: ''
+hierarchy: 0
+weight: 0

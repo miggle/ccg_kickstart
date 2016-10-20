@@ -1,0 +1,22 @@
+img.responsive {
+  max-width: 100%;
+  @media (max-device-width: 979px) and (max-width: 979px),
+  (min-device-width: 1023px) and (max-width: 1023px) {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.mobile-menu-icon {
+  display: none;
+  width: 32px;
+  height: 32px;
+  background: url('../images/menuicon.svg');
+}
+
+.right.medium {
+  float: right;
+  @media (max-width: $medium-max) {
+    float: none;
+  }
+}

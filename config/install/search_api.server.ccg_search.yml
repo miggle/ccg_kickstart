@@ -1,0 +1,17 @@
+uuid: ca9c74e4-4de7-46b8-94b1-1d1291294de6
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: ccg_search
+name: 'CCG Search'
+description: 'The database back-end server for providing search data for CCG sites.'
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 3
+  partial_matches: true
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true
