@@ -1,7 +1,0 @@
-.idea
-.sass-cache
-.DS_Store
-settings.local.php
-docroot/sites/*.local
-docroot/sites/*/files
-bin
