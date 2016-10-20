@@ -1,17 +1,22 @@
-id: seven_primary_local_tasks
-theme: seven
-weight: 0
-status: true
+uuid: c3142ab0-2e3a-43f5-85a9-289d51511237
 langcode: en
-region: header
-plugin: local_tasks_block
-settings:
-  id: local_tasks_block
-  label: Primary tabs
-  label_display: '0'
-  primary: true
-  secondary: false
+status: true
 dependencies:
   theme:
     - seven
+_core:
+  default_config_hash: dih5byVAys_FES1o7sgg69aCtt4QGohKJdH2b3KNtqg
+id: seven_primary_local_tasks
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
 visibility: {  }

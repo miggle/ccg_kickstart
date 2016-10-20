@@ -1,6 +1,6 @@
 uuid: 1cb2dda5-f656-4f58-bae3-e60ef8a6b67f
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - ccg
@@ -8,8 +8,8 @@ _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
 id: ccg_local_actions
 theme: ccg
-region: content
-weight: 0
+region: '-1'
+weight: 3
 provider: null
 plugin: local_actions_block
 settings:

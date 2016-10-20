@@ -11,7 +11,7 @@ third_party_settings:
       - main
     parent: 'main:'
   workbench_moderation:
-    enabled: false
+    enabled: true
     allowed_moderation_states:
       - published
       - archived

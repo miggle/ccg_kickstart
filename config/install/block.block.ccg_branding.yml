@@ -1,6 +1,6 @@
 uuid: fb3f326a-30bd-4661-bfa7-78b31d2c3586
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: ccg_branding
 theme: ccg
-region: branding
+region: '-1'
 weight: -6
 provider: null
 plugin: system_branding_block

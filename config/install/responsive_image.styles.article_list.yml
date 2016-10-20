@@ -1,0 +1,24 @@
+uuid: c43a35e0-b950-4b39-b81a-993c970c0b1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.article_list
+    - image.style.article_list_mobile
+  theme:
+    - ccg
+id: article_list
+label: 'Article List'
+image_style_mappings:
+  -
+    breakpoint_id: ccg.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: article_list
+  -
+    breakpoint_id: ccg.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: article_list_mobile
+breakpoint_group: ccg
+fallback_image_style: article_list

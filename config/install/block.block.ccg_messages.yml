@@ -1,6 +1,6 @@
 uuid: 148c4833-67e4-4225-a01d-2b470ed140fc
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: ccg_messages
 theme: ccg
-region: content
-weight: -4
+region: '-1'
+weight: -1
 provider: null
 plugin: system_messages_block
 settings:

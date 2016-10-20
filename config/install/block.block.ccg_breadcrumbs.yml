@@ -1,6 +1,6 @@
 uuid: 6c87323c-0685-4231-9786-d6d240a0ff67
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: ccg_breadcrumbs
 theme: ccg
-region: content
-weight: -5
+region: '-1'
+weight: -2
 provider: null
 plugin: system_breadcrumb_block
 settings:

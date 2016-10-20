@@ -1,0 +1,45 @@
+uuid: 7ea7452d-202d-4582-80c2-7f16399039a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+name: home_settings
+label: 'Home settings'
+group: home
+description: ''
+requireAllConditions: true
+disabled: false
+conditions:
+  current_theme:
+    id: current_theme
+    theme: ccg
+    negate: 0
+    uuid: 664a92d7-f0ed-4358-945d-26f5b7d19c61
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: 0
+    uuid: 7da15f64-ddff-4571-847a-425223214677
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      a63c5d03-2e3f-4097-a9b4-741a0470cef3:
+        id: 'views_block:news-homepage_hub_view_block'
+        label: ''
+        provider: views
+        label_display: visible
+        views_label: ''
+        items_per_page: none
+        region: sidebar_second
+        weight: '4'
+        context_mapping: {  }
+        theme: ccg
+        unique: 0
+        uuid: a63c5d03-2e3f-4097-a9b4-741a0470cef3
+    id: blocks
+    saved: false
+    uuid: f030e14b-60aa-4520-aa87-3bddf626249f
+weight: 0

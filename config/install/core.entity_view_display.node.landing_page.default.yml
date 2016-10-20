@@ -72,19 +72,19 @@ mode: default
 content:
   body:
     weight: 103
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
   field_landing_page_have_your_say:
     weight: 104
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
   field_landing_page_hys_link:
     weight: 105
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -105,4 +105,6 @@ content:
     third_party_settings: {  }
   workbench_moderation_control:
     weight: -20
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }

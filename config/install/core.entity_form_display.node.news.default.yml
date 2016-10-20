@@ -6,10 +6,9 @@ dependencies:
     - field.field.node.news.body
     - field.field.node.news.field_image
     - field.field.node.news.field_news_tags
-    - image.style.thumbnail
     - node.type.news
   module:
-    - image
+    - entity_browser
     - path
     - text
     - workbench_moderation
@@ -34,10 +33,15 @@ content:
   field_image:
     weight: 32
     settings:
-      progress_indicator: throbber
+      entity_browser: browse_files_modal
+      field_widget_edit: '1'
+      field_widget_remove: '1'
+      selection_mode: selection_append
+      view_mode: thumbnail
+      open: 0
       preview_image_style: thumbnail
     third_party_settings: {  }
-    type: image_image
+    type: entity_browser_file
   field_news_tags:
     weight: 33
     settings:

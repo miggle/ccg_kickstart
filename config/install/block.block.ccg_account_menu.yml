@@ -13,7 +13,7 @@ _core:
 id: ccg_account_menu
 theme: ccg
 region: '-1'
-weight: -5
+weight: 6
 provider: null
 plugin: 'system_menu_block:account'
 settings:

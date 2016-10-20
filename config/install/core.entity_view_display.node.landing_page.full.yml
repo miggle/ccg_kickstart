@@ -10,8 +10,10 @@ dependencies:
     - field.field.node.landing_page.field_meta_tags
     - node.type.landing_page
   module:
+    - link
     - metatag
     - panelizer
+    - text
     - user
 third_party_settings:
   panelizer:
@@ -69,21 +71,41 @@ targetEntityType: node
 bundle: landing_page
 mode: full
 content:
+  body:
+    type: text_default
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_landing_page_have_your_say:
+    type: text_default
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_landing_page_hys_link:
+    type: link
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      rel: ''
+      target: ''
+      url_only: false
+      url_plain: false
+    third_party_settings: {  }
   field_meta_tags:
-    weight: 101
+    weight: 1
     label: above
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
   links:
-    weight: 100
+    weight: 0
     settings: {  }
     third_party_settings: {  }
   workbench_moderation_control:
     weight: -20
     settings: {  }
     third_party_settings: {  }
-hidden:
-  body: true
-  field_landing_page_have_your_say: true
-  field_landing_page_hys_link: true
+hidden: {  }
