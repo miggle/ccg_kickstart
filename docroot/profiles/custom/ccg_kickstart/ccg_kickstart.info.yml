@@ -1,0 +1,68 @@
+name: CCG Kickstart
+type: profile
+description: 'A CCG starter distribution based on Lightning.'
+version: 8.x.1.x
+core: 8.x
+distribution:
+  name: CCG Kickstart
+# Required modules
+dependencies:
+  # core
+  - block_content
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - entity_reference
+  - help
+  - history
+  - image
+  - menu_ui
+  - node
+  - options
+  - path
+  - page_cache
+  - taxonomy
+  - text
+  - dblog
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  # contrib
+  - metatag
+  - admin_toolbar
+  - admin_toolbar_tools
+  - field_group
+  - pathauto
+  - search_api
+  - search_api_db
+  - search_api_page
+  - file_browser
+  - file_entity
+  - context
+  - context_ui
+  - twitter_block
+  # Lightning functionality.
+  - lightning_core
+  - lightning_workflow
+  - lightning_layout
+  - lightning_media
+  # CCG Kickstart functionality
+  - ccg_admin_alterations
+  - ccg_choice_widget
+
+themes:
+  - bartik
+  - seven
+  - classy
+  - ccg

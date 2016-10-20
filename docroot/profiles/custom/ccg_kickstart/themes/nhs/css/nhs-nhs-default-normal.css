@@ -1,0 +1,35 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+/*
+ * Site overrides:
+ * Home page grid
+ */
+.region-content-welcome-profile-inner {
+  padding-right: 10px;
+}
+
+body.front .homepage-news .region-inner {
+  margin-right: 20px;
+}
+
+.view-homepage-carousel{
+  min-height: 220px;
+  height: auto!important;
+  height: 220px;
+}
+
+.zone-branding{
+  min-height: 131px;
+  height: auto!important;
+  height: 131px;
+}
+
+#give-feedback{
+  display: block;
+}
+
+#flexslider-1 {
+  margin-right: 0;
+}
