@@ -54,7 +54,7 @@
     "patches": {
       "drupal/core": {
         "Branding block theme issue with context patch":
-        "docroot/profiles/ccg_kickstart/patches/core/core_system_branding_block_default_theme_issue.patch"
+        "./patches/core/core_system_branding_block_default_theme_issue.patch"
       }
     }
   },
