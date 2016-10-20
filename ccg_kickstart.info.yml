@@ -54,6 +54,7 @@ dependencies:
   - twitter_block
   - responsive_image
   # Lightning functionality.
+  - workbench_moderation
   - lightning_core
   - lightning_workflow
   - lightning_layout
