@@ -13,7 +13,7 @@ $ cd ccg_kickstart_installer
 ```
 Then you can simply run the following to build the site code-base for the CCG Kickstart distribution:
 ```
-$ composer create-project miggle/ccg_kickstart_installer MY_PROJECT --no-interaction
+$ composer install
 ```
 Composer will create a new directory called MY_PROJECT containing a ```docroot``` 
 directory with a full CCG Kickstart code base therein.
