@@ -225,3 +225,12 @@ nav.tabs {
   z-index: 25;
   border-top: 1px solid #aaa;
 }
+
+.region-footer {
+  padding: 14px 0 10px 0;
+  background-color: $pale-blue;
+}
+
+body.user-logged-in {
+  padding-bottom: 30px;
+}

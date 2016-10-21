@@ -59,6 +59,7 @@ dependencies:
   - scheduled_updates
   - workbench_moderation
   - panelizer
+  - sitemap
   # Lightning functionality.
   - lightning_core
   - lightning_workflow

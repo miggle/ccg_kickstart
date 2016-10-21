@@ -42,41 +42,43 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container container">
+<div class="layout-container">
 
-  <header role="banner">
-    {{ page.branding }}
-    {{ page.navigation }}
-  </header>
+  <div class="container">
+    <header role="banner">
+      {{ page.branding }}
+      {{ page.navigation }}
+    </header>
 
-  {{ page.primary_menu }}
-  {{ page.secondary_menu }}
+    {{ page.primary_menu }}
+    {{ page.secondary_menu }}
 
-  {{ page.breadcrumb }}
+    {{ page.breadcrumb }}
 
-  {{ page.highlighted }}
+    {{ page.highlighted }}
 
-  {{ page.help }}
+    {{ page.help }}
 
-  <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+    <main role="main">
+      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="row main-inner-container">
+      <div class="row main-inner-container">
 
-      {% if page.sidebar_second %}
-        <div class="layout-content eight columns">
-        {{ page.content }}
-        </div>{# /.layout-content #}
-        <aside class="layout-sidebar-second four columns" role="complementary">
-          {{ page.sidebar_second }}
-        </aside>
-      {% else %}
-        <div class="layout-content twelve columns">
-        {{ page.content }}
-        </div>{# /.layout-content #}
-      {% endif %}
-    </div>
-  </main>
+        {% if page.sidebar_second %}
+          <div class="layout-content eight columns">
+          {{ page.content }}
+          </div>{# /.layout-content #}
+          <aside class="layout-sidebar-second four columns" role="complementary">
+            {{ page.sidebar_second }}
+          </aside>
+        {% else %}
+          <div class="layout-content twelve columns">
+          {{ page.content }}
+          </div>{# /.layout-content #}
+        {% endif %}
+      </div>
+    </main>
+  </div>
 
   {% if page.footer %}
     <footer role="contentinfo">
