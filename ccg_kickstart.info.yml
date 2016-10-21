@@ -38,6 +38,7 @@ dependencies:
   - rdf
   - views
   - views_ui
+  - link
   # contrib
   - metatag
   - admin_toolbar
