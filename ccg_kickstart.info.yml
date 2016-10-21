@@ -57,8 +57,8 @@ dependencies:
   - responsive_image
   - views_infinite_scroll
   - scheduled_updates
-  # Lightning functionality.
   - workbench_moderation
+  # Lightning functionality.
   - lightning_core
   - lightning_workflow
   - lightning_layout
