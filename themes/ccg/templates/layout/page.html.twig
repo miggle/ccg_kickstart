@@ -42,12 +42,11 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
 
-  <div class="container">
+<div class="container main-wrapper">
     <header role="banner">
-      {{ page.branding }}
-      {{ page.navigation }}
+        {{ page.branding }}
+        {{ page.navigation }}
     </header>
 
     {{ page.primary_menu }}
@@ -60,30 +59,29 @@
     {{ page.help }}
 
     <main role="main">
-      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+        <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-      <div class="row main-inner-container">
+        <div class="row main-inner-container">
 
-        {% if page.sidebar_second %}
-          <div class="layout-content eight columns">
-          {{ page.content }}
-          </div>{# /.layout-content #}
-          <aside class="layout-sidebar-second four columns" role="complementary">
-            {{ page.sidebar_second }}
-          </aside>
-        {% else %}
-          <div class="layout-content twelve columns">
-          {{ page.content }}
-          </div>{# /.layout-content #}
-        {% endif %}
-      </div>
+            {% if page.sidebar_second %}
+                <div class="layout-content eight columns">
+                {{ page.content }}
+                </div>{# /.layout-content #}
+                <aside class="layout-sidebar-second four columns" role="complementary">
+                    {{ page.sidebar_second }}
+                </aside>
+            {% else %}
+                <div class="layout-content twelve columns">
+                {{ page.content }}
+                </div>{# /.layout-content #}
+            {% endif %}
+        </div>
     </main>
-  </div>
+    <div class="push"></div>
+</div>
 
-  {% if page.footer %}
+{% if page.footer %}
     <footer role="contentinfo">
-      {{ page.footer }}
+        {{ page.footer }}
     </footer>
-  {% endif %}
-
-</div>{# /.layout-container #}
+{% endif %}
