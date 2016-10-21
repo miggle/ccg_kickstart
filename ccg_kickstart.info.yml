@@ -58,6 +58,7 @@ dependencies:
   - views_infinite_scroll
   - scheduled_updates
   - workbench_moderation
+  - panelizer
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
