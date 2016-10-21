@@ -39,6 +39,7 @@ dependencies:
   - views
   - views_ui
   - link
+  - user
   # contrib
   - metatag
   - admin_toolbar
@@ -54,6 +55,8 @@ dependencies:
   - context_ui
   - twitter_block
   - responsive_image
+  - views_infinite_scroll
+  - scheduled_updates
   # Lightning functionality.
   - workbench_moderation
   - lightning_core
