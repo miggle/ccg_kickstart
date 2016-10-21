@@ -50,12 +50,6 @@
       "docroot/profiles/contrib/{$name}": [
         "type:drupal-profile"
       ]
-    },
-    "patches": {
-      "drupal/core": {
-        "Branding block theme issue with context patch":
-        "./patches/core/core_system_branding_block_default_theme_issue.patch"
-      }
     }
   },
   "require": {
