@@ -49,6 +49,10 @@
       ],
       "docroot/profiles/contrib/{$name}": [
         "type:drupal-profile"
+      ],
+      "docroot/libraries/{$name}": [
+        "type:component",
+        "name:enyo/dropzone"
       ]
     }
   },
