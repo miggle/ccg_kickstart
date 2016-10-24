@@ -46,6 +46,9 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   padding: 35px 20px 25px 20px;
+  @media (max-width: $medium-max) {
+    padding: 35px 0 25px 0;
+  }
   .region-branding {
     margin-bottom: 15px;
     .site-slogan {
@@ -197,6 +200,9 @@ footer a:link, a:visited {
 
 .main-inner-container {
   padding: 0 30px;
+  @media (max-width: $medium-max) {
+    padding: 0 10px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -242,6 +248,10 @@ footer {
       text-transform: uppercase;
       li {
         display: inline;
+        a {
+          color: $dark-grey;
+          font-size: 0.85em;
+        }
       }
     }
   }

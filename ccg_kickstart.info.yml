@@ -60,6 +60,7 @@ dependencies:
   - workbench_moderation
   - panelizer
   - sitemap
+  - default_content
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
