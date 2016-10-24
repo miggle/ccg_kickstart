@@ -61,6 +61,9 @@ dependencies:
   - panelizer
   - sitemap
   - default_content
+  - serialization
+  - rest
+  - hal
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
