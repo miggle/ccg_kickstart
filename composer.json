@@ -51,9 +51,9 @@
         "type:drupal-profile"
       ],
       "docroot/libraries/{$name}": [
-        "libraries/dropzone",
-        "libraries/masonry",
-        "libraries/imagesloaded"
+        "enyo/dropzone",
+        "desandro/masonry",
+        "desandro/imagesloaded"
       ]
     }
   },
