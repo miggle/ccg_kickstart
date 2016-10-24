@@ -70,8 +70,8 @@
     "drupal/twitter_block": "^8.2.0",
     "drupal/search_api_page": "^8.1.0",
     "drupal/sitemap": "^8.1.0",
-    "enyo/dropzone": "*",
-    "desandro/masonry": "*",
-    "desandro/imagesloaded": "*"
+    "enyo/dropzone": "4.*",
+    "desandro/masonry": "4.*",
+    "desandro/imagesloaded": "4.*"
   }
 }
