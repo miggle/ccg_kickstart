@@ -65,6 +65,7 @@
     "drupal/context": "^8.1.0",
     "drupal/twitter_block": "^8.2.0",
     "drupal/search_api_page": "^8.1.0",
-    "drupal/sitemap": "^8.1.0"
+    "drupal/sitemap": "^8.1.0",
+    "drupal/default_content": "^8.1.0"
   }
 }
