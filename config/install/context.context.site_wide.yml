@@ -151,6 +151,20 @@ reactions:
         theme: ccg
         unique: 0
         uuid: ff838813-9223-47db-b2d2-8fe899aa2637
+      0ccbb538-82ba-424f-b58a-c67528c1d250:
+        id: 'block_content:51fdcc16-e8d2-420a-8ca9-6cc807481f32'
+        label: Copyright
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: footer
+        weight: '0'
+        context_mapping: {  }
+        theme: ccg
+        unique: 0
+        uuid: 0ccbb538-82ba-424f-b58a-c67528c1d250
     id: blocks
     saved: false
     uuid: 4e6f31e2-4c3a-4968-85f1-5e2a92ac6ee4
