@@ -81,17 +81,6 @@ reactions:
         theme: ccg
         unique: 0
         uuid: 4f0de0bb-482a-483d-9f29-b38e8e8a6ada
-      f7331214-5b63-4a69-81d8-4a5a36ec9978:
-        id: page_title_block
-        label: 'Page title'
-        provider: core
-        label_display: 0
-        region: content
-        weight: '-7'
-        context_mapping: {  }
-        theme: ccg
-        unique: 0
-        uuid: f7331214-5b63-4a69-81d8-4a5a36ec9978
       60ccccec-0c8b-4e5c-ae86-fda153ed84de:
         id: local_tasks_block
         label: Tabs

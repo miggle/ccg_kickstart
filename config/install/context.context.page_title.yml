@@ -1,0 +1,46 @@
+uuid: 693d309f-bcee-4556-8986-ec86ebc53c10
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - system
+name: page_title
+label: 'Page title'
+group: 'Not news'
+description: 'The context for the page title block where it is displayed on all pages but not those of the news content type.'
+requireAllConditions: true
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      news: news
+    negate: 1
+    uuid: 4b6ace16-2c06-4390-b078-744b1222a0bf
+    context_mapping:
+      node: '@node.node_route_context:node'
+  current_theme:
+    id: current_theme
+    theme: ccg
+    negate: 0
+    uuid: 06c4a867-62a3-4903-aa90-b25655482fb3
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      b49fdd72-0539-439c-92ea-9eba84eaceaa:
+        id: page_title_block
+        label: 'Page title'
+        provider: core
+        label_display: 0
+        region: content
+        weight: '-7'
+        context_mapping: {  }
+        theme: ccg
+        unique: 0
+        uuid: b49fdd72-0539-439c-92ea-9eba84eaceaa
+    id: blocks
+    saved: false
+    uuid: 639bf493-6530-41cd-ae1f-fa2f5bd18424
+weight: 0
