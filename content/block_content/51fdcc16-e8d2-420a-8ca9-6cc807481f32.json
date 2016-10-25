@@ -88,7 +88,7 @@
     ],
     "body": [
         {
-            "value": "<p><span>Copyright</span> <sup>\u00a9<\/sup>&nbsp;<a href=\"#\">Your town CCG<\/a><\/p>\r\n",
+            "value": "<p>Copyright <sup>\u00a9<\/sup>&nbsp;<a href=\"#\">Your town CCG<\/a><\/p>\r\n",
             "format": "rich_text",
             "summary": "",
             "lang": "en"
