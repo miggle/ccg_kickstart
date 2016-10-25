@@ -2,14 +2,8 @@
 
 namespace Drupal\ccg_kickstart\Form;
 
-use Drupal\Core\Extension\ExtensionDiscovery;
-use Drupal\Core\Extension\InfoParserInterface;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Render\Element;
-use Drupal\Core\Render\Element\Checkboxes;
-use Drupal\Core\StringTranslation\TranslationInterface;
-use Drupal\lightning\Extender;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
@@ -59,6 +53,13 @@ class DefaultContentForm extends FormBase {
       '#type' => 'checkbox',
       '#title' => $this->t('Check this box to create default content when installing the site.'),
     ];
+    $form['actions'] = [
+      'continue' => [
+        '#type' => 'submit',
+        '#value' => $this->t('Continue'),
+      ],
+      '#type' => 'actions',
+    ];
     return $form;
   }
 
@@ -66,6 +67,14 @@ class DefaultContentForm extends FormBase {
    * {@inheritdoc}
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-    $GLOBALS['install_state']['ccg_kickstart']['default_content'] = $form_state->getValue('default_content');
+    if ($form_state->getValue('default_content')) {
+      // Simply install the default content module if default content has been selected.
+      $installed = \Drupal::service('module_installer')->install(['ccg_default_content']);
+      if ($installed) {
+        drupal_set_message($this->t('Default content has been created.'), 'status');
+      } else {
+        drupal_set_message($this->t('Something went wrong with creating the default content.'), 'error');
+      }
+    }
   }
 }
