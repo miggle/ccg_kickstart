@@ -48,7 +48,7 @@ class DefaultContentForm extends FormBase {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state, array &$install_state = NULL) {
-    $form['#title'] = $this->t('Create default content?');
+    $form['#title'] = $this->t('Create default content');
     $form['default_content'] = [
       '#type' => 'checkbox',
       '#title' => $this->t('Check this box to create default content when installing the site.'),
