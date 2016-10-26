@@ -14,6 +14,9 @@ choices:
 menu:
   js:
     js/menu.js: {}
+tabs:
+  js:
+    js/tabs.js: {}
   dependencies:
     - core/matchmedia
     - core/jquery
