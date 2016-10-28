@@ -398,8 +398,11 @@ footer.page-footer {
   height: 70px;
 }
 
-body.user-logged-in.path-node {
-  padding-bottom: 30px;
+body.user-logged-in.path-node,
+body.user-logged-in.path-frontpage {
+  footer.page-footer {
+    padding-bottom: 30px;
+  }
 }
 
 .sitemap-menu li {
