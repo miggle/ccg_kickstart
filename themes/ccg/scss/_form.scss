@@ -32,6 +32,17 @@ input[type="password"], select {
   box-shadow: none;
   box-sizing: border-box;
 }
+.region-content {
+  input[type="email"], input[type="number"], input[type="search"],
+  input[type="text"], input[type="tel"], input[type="url"],
+  input[type="password"], select {
+    border: 1px solid darken($pale-blue, 10%);
+  }
+  /* Set the search icon in the content area to be the blue instead of the white. */
+  .search-icon {
+    background: url(../images/search-icon--blue.png) 0 0 no-repeat;
+  }
+}
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
   display: inline-block;
