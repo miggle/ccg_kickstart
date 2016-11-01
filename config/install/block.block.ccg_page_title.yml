@@ -1,15 +1,17 @@
 uuid: e511171c-0aca-49f7-925d-10f82be2a1b3
 langcode: en
-status: false
+status: true
 dependencies:
+  module:
+    - node
   theme:
     - ccg
 _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: ccg_page_title
 theme: ccg
-region: '-1'
-weight: -3
+region: content
+weight: -7
 provider: null
 plugin: page_title_block
 settings:
@@ -17,4 +19,12 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      landing_page: landing_page
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

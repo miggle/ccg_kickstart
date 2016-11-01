@@ -1,6 +1,6 @@
 uuid: 74290285-d2cc-4c8c-a07f-0d841b050044
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
 id: ccg_content
 theme: ccg
-region: '-1'
-weight: 4
+region: content
+weight: -3
 provider: null
 plugin: system_main_block
 settings:

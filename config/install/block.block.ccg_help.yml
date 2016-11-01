@@ -11,7 +11,7 @@ _core:
 id: ccg_help
 theme: ccg
 region: '-1'
-weight: 2
+weight: -6
 provider: null
 plugin: help_block
 settings:

@@ -1,6 +1,6 @@
 uuid: 839d8e7c-9c26-4443-9b6c-14d68f188fc9
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.main
@@ -12,8 +12,8 @@ _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
 id: ccg_main_menu
 theme: ccg
-region: '-1'
-weight: -4
+region: navigation
+weight: -5
 provider: null
 plugin: 'system_menu_block:main'
 settings:
