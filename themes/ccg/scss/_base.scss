@@ -82,6 +82,11 @@ header {
         margin: 0 3px;
       }
     }
+    @media (max-width: $medium-max) {
+      nav.navigation.contextual-region {
+        position: initial;
+      }
+    }
     ul.menu {
       margin-bottom: 0;
       li {

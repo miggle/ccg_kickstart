@@ -51,8 +51,6 @@ dependencies:
   - search_api_page
   - file_browser
   - file_entity
-  - context
-  - context_ui
   - twitter_block
   - responsive_image
   - views_infinite_scroll

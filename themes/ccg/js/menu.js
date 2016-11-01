@@ -1,9 +1,9 @@
-(function($, Drupal) {
+(function ($, Drupal) {
 
   'use strict';
 
   function hideOrShowMenu(context, settings, toggle) {
-    var menu = $(context).find('.block-menu.menu--main > ul.menu');
+    var menu = $('.block-menu.menu--main div > ul.menu, .block-menu.menu--main > ul.menu');
     if (menu.length) {
       var mobileScreen = window.matchMedia('(max-width: 760px)');
       if (mobileScreen.matches) {
@@ -32,10 +32,10 @@
   Drupal.behaviors.menu = {
     attach: function (context, settings) {
       hideOrShowMenu(context, settings);
-      $(window).resize(function() {
+      $(window).resize(function () {
         hideOrShowMenu(context, settings);
       });
-      $('.mobile-menu-icon').click(function() {
+      $('.mobile-menu-icon').unbind().click(function () {
         if (!$(this).hasClass('active')) {
           $(this).addClass('active');
         } else {
