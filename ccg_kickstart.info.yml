@@ -63,6 +63,7 @@ dependencies:
   - rest
   - hal
   - cookie_consent
+  - social_media_links
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
