@@ -307,9 +307,9 @@ nav.tabs {
         a {
           border: 1px solid darken($pale-blue, 25%);
           border-top: none;
-          background: url(../../../../misc/icons/0074bd/chevron-right.svg) darken($pale-blue, 5%) 99% center no-repeat;
+          background: url(/core/misc/icons/0074bd/chevron-right.svg) darken($pale-blue, 5%) 99% center no-repeat;
           &:hover {
-            background: url(../../../../misc/icons/0074bd/chevron-right.svg) $pale-blue 99% center no-repeat;
+            background: url(/core/misc/icons/0074bd/chevron-right.svg) $pale-blue 99% center no-repeat;
           }
         }
       }
