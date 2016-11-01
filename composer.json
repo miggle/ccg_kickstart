@@ -66,6 +66,6 @@
     "drupal/search_api_page": "^8.1.0",
     "drupal/sitemap": "^8.1.0",
     "drupal/default_content": "^8.1.0",
-    "drupal/eu_cookie_compliance": "^8.1.0"
+    "drupal/cookieconsent": "^8.1.0"
   }
 }

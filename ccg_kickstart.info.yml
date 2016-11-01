@@ -62,7 +62,7 @@ dependencies:
   - serialization
   - rest
   - hal
-  - eu_cookie_compliance
+  - cookie_consent
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
