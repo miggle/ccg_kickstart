@@ -9,6 +9,7 @@ libraries:
   - ccg/menu
   - ccg/choices
   - ccg/tabs
+  - ccg/misc
 regions:
   branding: Header branding
   navigation: Header navigation

@@ -427,3 +427,15 @@ body.user-logged-in.path-frontpage {
   min-height: 100%;
   margin-bottom: -70px;
 }
+
+.messages {
+  position: relative;
+  margin-bottom: 20px;
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12pt;
+    cursor: pointer;
+  }
+}
