@@ -19,6 +19,14 @@
   padding-right: 10px;
 }
 
+.region-navigation {
+  input[type="email"], input[type="number"], input[type="search"],
+  input[type="text"], input[type="tel"], input[type="url"],
+  input[type="password"], select {
+    border: none;
+  }
+}
+
 input[type="email"], input[type="number"], input[type="search"],
 input[type="text"], input[type="tel"], input[type="url"],
 input[type="password"], select {
@@ -27,7 +35,7 @@ input[type="password"], select {
   margin-bottom: 0;
   background-color: #fff;
   font-size: 13px;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 0;
   box-shadow: none;
   box-sizing: border-box;
