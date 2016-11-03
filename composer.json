@@ -50,6 +50,11 @@
       "docroot/profiles/contrib/{$name}": [
         "type:drupal-profile"
       ]
+    },
+    "patches": {
+      "drupal/core": {
+        "2635712 - Quickedit delete files": "https://www.drupal.org/files/issues/2635712-20.patch"
+      }
     }
   },
   "require": {
