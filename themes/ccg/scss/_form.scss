@@ -46,8 +46,8 @@ input[type="password"], select {
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
   display: inline-block;
-  padding: 0;
-  color: #555;
+  padding: 5px;
+  color: white;
   height: initial;
   line-height: initial;
   letter-spacing: initial;
@@ -58,15 +58,35 @@ input[type="password"], select {
   text-transform: none;
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
+  background-color: darken($pale-blue, 20%);
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 1px solid darken($pale-blue, 30%);
   cursor: pointer;
   box-sizing: border-box;
+  &:first-of-type {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  &:hover {
+    color: white;
+    border: 1px solid darken($pale-blue, 40%);
+    background-color: darken($pale-blue, 30%);
+  }
   &.search-icon {
+    padding: 0;
     font-size: 0;
     height: 20px;
     border: none;
+    background-color: transparent;
+  }
+}
+
+input[type="submit"][name*="remove"] {
+  background-color: $red;
+  border: 1px solid darken($red, 10%);
+  &:hover {
+    background-color: darken($red, 10%);
+    border: 1px solid darken($red, 20%);
   }
 }
 
