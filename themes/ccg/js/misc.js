@@ -5,7 +5,7 @@
   /**
    * Initialise the miscellaneous JS functionality.
    */
-  Drupal.behaviors.menu = {
+  Drupal.behaviors.misc = {
     attach: function (context, settings) {
       $('.messages .close').click(function() {
         $(this).closest('.messages').addClass('hidden');
