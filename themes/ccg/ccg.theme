@@ -9,3 +9,16 @@ function ccg_form_search_api_page_block_form_alter(array &$form, \Drupal\Core\Fo
   // Add out search icon class to the submit button.
   $form['actions']['submit']['#attributes']['class'] = ['search-icon'];
 }
+
+/**
+ * Implements template_preprocess_breadcrumb().
+ */
+function ccg_preprocess_breadcrumb(&$vars) {
+  $request = \Drupal::request();
+  $route_match = \Drupal::routeMatch();
+  $page_title = \Drupal::service('title_resolver')->getTitle($request, $route_match->getRouteObject());
+  // Add the retrieved title to the breadcrumbs.
+  $vars['breadcrumb'][] = [
+    'text' => $page_title
+  ];
+}
