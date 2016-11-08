@@ -71,6 +71,7 @@
     "drupal/search_api_page": "^8.1.0",
     "drupal/sitemap": "^8.1.0",
     "drupal/default_content": "^8.1.0",
-    "drupal/cookieconsent": "^8.1.0"
+    "drupal/cookieconsent": "^8.1.0",
+    "drupal/social_media_links": "^8.1.0"
   }
 }
