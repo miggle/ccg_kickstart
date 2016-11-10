@@ -64,6 +64,7 @@ dependencies:
   - hal
   - social_media_links
   - cookieconsent
+  - sharethis
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
