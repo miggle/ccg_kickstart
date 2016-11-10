@@ -46,9 +46,11 @@ footer.page-footer {
   }
   .block-social-media-links-block {
     float: right;
+    margin-right: 21px;
     @media (max-width: $medium-max) {
       float: none;
-      margin-left: 15px;
+      margin-left: 0;
+      margin-right: 0;
       margin-bottom: 10px;
       img.responsive {
         width: initial;

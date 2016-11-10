@@ -45,4 +45,16 @@
       });
     }
   };
+
+  // Ensure the home menu link li has active trail on document ready as on drupal behaviour attachment
+  // it takes too long for this to kick in.
+  $(function() {
+    // Ensure that main menu home link li element gets menu-item--active-trail class.
+    // TODO: check for core patch or fix for this issue.
+    $('nav.menu--main ul.menu > li.menu-item').each(function() {
+      if ($(this).find('a.is-active').length > 0) {
+        $(this).addClass('menu-item--active-trail');
+      }
+    });
+  });
 })(jQuery, Drupal);
