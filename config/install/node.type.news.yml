@@ -8,6 +8,7 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
+      - footer
       - main
     parent: 'main:'
   workbench_moderation:
@@ -22,6 +23,6 @@ name: News
 type: news
 description: ''
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: true

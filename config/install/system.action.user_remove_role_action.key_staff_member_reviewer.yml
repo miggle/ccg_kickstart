@@ -1,0 +1,14 @@
+uuid: 39df22a3-e606-461e-8f1b-5c25e30a3c85
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.key_staff_member_reviewer
+  module:
+    - user
+id: user_remove_role_action.key_staff_member_reviewer
+label: 'Remove the Key Staff Member Reviewer role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: key_staff_member_reviewer

@@ -1,0 +1,25 @@
+uuid: e6e1d797-ab5e-4e7d-92e3-706b9fdce1dc
+langcode: en
+status: true
+dependencies: {  }
+id: key_staff_member_creator
+label: 'Key Staff Member Creator'
+weight: 9
+is_admin: null
+permissions:
+  - 'create key_staff_member content'
+  - 'edit own key_staff_member content'
+  - 'view key_staff_member revisions'
+  - 'view own unpublished content'
+  - 'create url aliases'
+  - 'access panels in-place editing'
+  - 'change layouts in place editing'
+  - 'administer panelizer node key_staff_member content'
+  - 'administer panelizer node key_staff_member layout'
+  - 'use text format rich_text'
+  - 'access media_browser entity browser pages'
+  - 'view any unpublished content'
+  - 'use draft_draft transition'
+  - 'use draft_needs_review transition'
+  - 'use needs_review_needs_review transition'
+  - 'view latest version'

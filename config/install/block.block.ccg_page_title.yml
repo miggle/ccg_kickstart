@@ -11,7 +11,7 @@ _core:
 id: ccg_page_title
 theme: ccg
 region: content
-weight: -7
+weight: -8
 provider: null
 plugin: page_title_block
 settings:
@@ -23,6 +23,7 @@ visibility:
   node_type:
     id: node_type
     bundles:
+      key_staff_member: key_staff_member
       landing_page: landing_page
       page: page
     negate: false

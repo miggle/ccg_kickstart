@@ -1,0 +1,18 @@
+uuid: d2ad0964-de9c-4731-a3cd-b0280556ed90
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CwPdh_0e98rfLKfCvZVzqc4L0hV_uhmi-UJ50XsTqyU
+id: layout_manager
+label: 'Layout Manager'
+weight: 2
+is_admin: false
+permissions:
+  - 'administer node display'
+  - 'administer panelizer'
+  - 'administer panelizer node landing_page defaults'
+  - 'administer panelizer node page defaults'
+  - 'administer panelizer node news defaults'
+  - 'view files'
+  - 'administer panelizer node key_staff_member defaults'

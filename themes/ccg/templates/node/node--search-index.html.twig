@@ -91,14 +91,6 @@ view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
     {% endif %}
     {{ title_suffix }}
 
-    {% if display_submitted %}
-        <footer class="node__meta">
-            <div{{ author_attributes.addClass('node__submitted') }}>
-                <h5 class="news-date">{{ node.createdTime|date("jS F Y") }}</h5>
-            </div>
-        </footer>
-    {% endif %}
-
     <div{{ content_attributes.addClass('node__content content') }}>
         {{ content }}
     </div>

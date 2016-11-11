@@ -1,0 +1,20 @@
+uuid: d5544205-f792-4b6a-b728-7ec08bd43a25
+langcode: en
+status: true
+dependencies:
+  module:
+    - ccg_choice_widget
+  theme:
+    - ccg
+id: nhschoiceswidget
+theme: ccg
+region: sidebar_second
+weight: -8
+provider: null
+plugin: ccg_choice_widget_block
+settings:
+  id: ccg_choice_widget_block
+  label: 'NHS choices widget'
+  provider: ccg_choice_widget
+  label_display: '0'
+visibility: {  }

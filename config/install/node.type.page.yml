@@ -8,6 +8,7 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
+      - footer
       - main
     parent: 'main:'
   workbench_moderation:
@@ -24,6 +25,6 @@ name: 'Basic page'
 type: page
 description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false
