@@ -30,3 +30,15 @@
 .pale-blue-bg {
   background: lighten($pale-blue, 7%);
 }
+
+.blue-fg {
+  color: $blue-text;
+}
+
+.orange-fg {
+  color: $orange;
+}
+
+.inline {
+  display: inline-block;
+}

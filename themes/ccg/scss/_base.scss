@@ -7,6 +7,10 @@ body, html {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font:{
     family: arial, helvetica, sans-serif;
@@ -105,7 +109,7 @@ header {
         ul.menu {
           @media (min-width: $large-min) {
             position: absolute;
-            top: 4px;
+            top: 6px;
             left: 0;
             margin-left: 3px;
             li {
@@ -115,6 +119,12 @@ header {
           li {
             text-transform: none;
             margin-bottom: 0;
+            &.menu-item--active-trail {
+              background: transparent;
+              a {
+                background: transparent;
+              }
+            }
           }
         }
         float: left;
@@ -125,6 +135,7 @@ header {
         }
         &.menu-item--active-trail {
           > a {
+            color: $dark-blue-text;
             padding-top: 3px;
             padding-bottom: 8px;
             background-color: white;
@@ -349,7 +360,7 @@ nav.tabs {
 }
 
 footer.page-footer {
-  height: 70px;
+  height: 80px;
   @media (max-width: $medium-max) {
     height: initial;
   }
@@ -423,13 +434,13 @@ footer.page-footer {
   @media (max-width: $medium-max) {
     height: 100px;
   }
-  height: 70px;
+  height: 80px;
 }
 
 body.user-logged-in.path-node,
 body.user-logged-in.path-frontpage {
   footer.page-footer {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
 }
 
@@ -456,10 +467,15 @@ body.user-logged-in.path-frontpage {
 }
 
 .breadcrumb {
+  padding-bottom: 0.75em;
   &.sub-menu-page {
     margin-top: 10px;
   }
   li:before {
     content: ' | ';
   }
+}
+
+main {
+  margin-top: 10px;
 }

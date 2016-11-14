@@ -56,8 +56,18 @@ footer.page-footer {
         width: initial;
       }
     }
+    li {
+      margin-bottom: 0;
+    }
   }
   .menu--footer {
     clear: both;
+  }
+}
+
+.sharethis-wrapper {
+  margin-bottom: 15px;
+  @media (min-width: $large-min) {
+    float: right;
   }
 }
