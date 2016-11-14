@@ -65,6 +65,7 @@ dependencies:
   - social_media_links
   - cookieconsent
   - sharethis
+  - media
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
