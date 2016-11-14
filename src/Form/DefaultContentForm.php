@@ -69,7 +69,7 @@ class DefaultContentForm extends FormBase {
   public function submitForm(array &$form, FormStateInterface $form_state) {
     if ($form_state->getValue('default_content')) {
       // Simply install the default content module if default content has been selected.
-      $installed = \Drupal::service('module_installer')->install(['ccg_default_content']);
+      $installed = \Drupal::service('module_installer')->install(['ccg_default_content', 'ccg_second_level_menu_links', 'ccg_third_level_menu_links']);
       if ($installed) {
         drupal_set_message($this->t('Default content has been created.'), 'status');
       } else {
