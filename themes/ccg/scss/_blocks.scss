@@ -73,9 +73,25 @@ footer.page-footer {
 }
 
 .in-this-section {
-  margin-top: 50px;
+  margin: 20px 0;
   ul {
     margin-left: 0;
     padding-left: 0;
+    li {
+      padding-bottom: 5px;
+      a {
+        font-size: 12pt;
+      }
+    }
+  }
+  @media (min-width: $large-min) {
+    margin-top: 50px;
+    ul {
+      li {
+        a {
+          font-size: inherit;
+        }
+      }
+    }
   }
 }

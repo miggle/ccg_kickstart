@@ -3,7 +3,7 @@
   'use strict';
 
   function hideOrShowMenu(context, settings, toggle) {
-    var menu = $('.block-menu.menu--main div > ul.menu, .block-menu.menu--main > ul.menu');
+    var menu = $('.block-menu.menu--main:not(.in-this-section) div > ul.menu, .block-menu.menu--main:not(.in-this-section) > ul.menu');
     if (menu.length) {
       var mobileScreen = window.matchMedia('(max-width: 760px)');
       if (mobileScreen.matches) {
@@ -51,7 +51,7 @@
   $(function() {
     // Ensure that main menu home link li element gets menu-item--active-trail class.
     // TODO: check for core patch or fix for this issue.
-    $('nav.menu--main ul.menu > li.menu-item').each(function() {
+    $('nav.menu--main:not(.in-this-section) ul.menu > li.menu-item').each(function() {
       if ($(this).find('a.is-active').length > 0) {
         $(this).addClass('menu-item--active-trail');
       }
