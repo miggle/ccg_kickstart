@@ -69,8 +69,6 @@ dependencies:
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
-  - lightning_layout
-  - lightning_media
   # CCG Kickstart functionality
   - ccg_admin_alterations
   - ccg_choice_widget
