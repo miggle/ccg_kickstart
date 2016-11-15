@@ -1,3 +1,10 @@
 .field--name-field-title {
   color: $light-grey;
 }
+
+.field--name-field-landing-page-have-your-say {
+  margin-top: 15px;
+  .field__label {
+    @extend h4;
+  }
+}
