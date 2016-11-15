@@ -1,0 +1,33 @@
+uuid: 7c850a55-0015-43b6-b69e-5f83286808b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - menu_block
+    - system
+  theme:
+    - ccg
+id: in_this_section
+theme: ccg
+region: content
+weight: 0
+provider: null
+plugin: 'menu_block:main'
+settings:
+  id: 'menu_block:main'
+  label: 'In this section'
+  provider: menu_block
+  label_display: visible
+  level: 2
+  depth: 1
+  expand: 0
+  parent: 'main:'
+  suggestion: main
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/contact-us/*\r\ncontact-us/*"
+    negate: true
+    context_mapping: {  }
