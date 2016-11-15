@@ -80,7 +80,7 @@ content:
   field_landing_page_have_your_say:
     type: text_default
     weight: 3
-    label: hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
   field_landing_page_hys_link:
@@ -102,6 +102,10 @@ content:
     type: metatag_empty_formatter
   links:
     weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  sharethis:
+    weight: 10
     settings: {  }
     third_party_settings: {  }
   workbench_moderation_control:
