@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/our-board-and-management-comitee?_format=hal_json"
+            "href": "http:\/\/default\/our-board-and-management-committee?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
@@ -46,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "Our board and management comitee",
+            "value": "Our board and management committee",
             "lang": "en"
         }
     ],
@@ -136,7 +136,7 @@
     ],
     "path": [
         {
-            "alias": "\/our-board-and-management-comitee",
+            "alias": "\/our-board-and-management-committee",
             "pid": "12",
             "lang": "en"
         }

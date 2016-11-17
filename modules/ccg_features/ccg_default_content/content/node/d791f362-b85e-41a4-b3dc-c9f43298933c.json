@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/our-board-and-management-comitee\/jamie-leigh-jones?_format=hal_json"
+            "href": "http:\/\/default\/our-board-and-management-committee\/jamie-leigh-jones?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/key_staff_member"
@@ -186,7 +186,7 @@
     ],
     "path": [
         {
-            "alias": "\/our-board-and-management-comitee\/jamie-leigh-jones",
+            "alias": "\/our-board-and-management-committee\/jamie-leigh-jones",
             "pid": "22",
             "lang": "en"
         }

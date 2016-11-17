@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/our-board-and-management-comitee\/dr-john-smith?_format=hal_json"
+            "href": "http:\/\/default\/our-board-and-management-committee\/dr-john-smith?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/key_staff_member"
@@ -186,7 +186,7 @@
     ],
     "path": [
         {
-            "alias": "\/our-board-and-management-comitee\/dr-john-smith",
+            "alias": "\/our-board-and-management-committee\/dr-john-smith",
             "pid": "19",
             "lang": "en"
         }
