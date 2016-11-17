@@ -66,9 +66,16 @@ footer.page-footer {
 }
 
 .sharethis-wrapper {
+  min-width: 66%;
   margin-bottom: 15px;
+  h4 {
+    line-height: 1.5em;
+  }
   @media (min-width: $large-min) {
     float: right;
+  }
+  .column, .columns {
+    margin-left: 0;
   }
 }
 

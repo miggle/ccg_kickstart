@@ -23,3 +23,11 @@ function ccg_preprocess_breadcrumb(&$vars) {
     'text' => $page_title
   ];
 }
+
+/**
+ * Theme function override for ShareThis code based on settings.
+ */
+function ccg_sharethis_block($variables) {
+  return '<div class="sharethis-wrapper row"><div class="four columns"><h4>Share this page</h4></div><div class="eight columns">' .
+  $variables['content']['st_spans'] . '</div></div>';
+}
