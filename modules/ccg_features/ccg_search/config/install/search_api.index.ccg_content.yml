@@ -6,8 +6,11 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_landing_page_have_your_say
     - field.storage.node.field_bio
+    - field.storage.node.field_document
+    - field.storage.node.field_description
     - search_api.server.ccg_search
   module:
+    - file
     - search_api
     - node
 id: ccg_content
@@ -56,6 +59,24 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_bio
+  filename:
+    label: 'Document file » File » Filename'
+    datasource_id: 'entity:node'
+    property_path: 'field_document:entity:filename'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_document
+      module:
+        - file
+  field_description:
+    label: Description
+    datasource_id: 'entity:node'
+    property_path: field_description
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_description
 processor_settings:
   add_url:
     plugin_id: add_url
@@ -71,6 +92,8 @@ processor_settings:
         - field_landing_page_have_your_say
         - title
         - field_bio
+        - filename
+        - field_description
       title: true
       alt: true
       tags:
@@ -90,6 +113,8 @@ processor_settings:
         - field_landing_page_have_your_say
         - title
         - field_bio
+        - filename
+        - field_description
       weights:
         preprocess_index: -10
         preprocess_query: -10

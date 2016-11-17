@@ -78,7 +78,7 @@ content:
     type: text_default
   field_landing_page_have_your_say:
     weight: 104
-    label: hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
@@ -101,6 +101,10 @@ content:
     type: metatag_empty_formatter
   links:
     weight: 100
+    settings: {  }
+    third_party_settings: {  }
+  sharethis:
+    weight: 10
     settings: {  }
     third_party_settings: {  }
   workbench_moderation_control:

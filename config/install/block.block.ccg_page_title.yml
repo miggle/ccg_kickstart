@@ -23,6 +23,7 @@ visibility:
   node_type:
     id: node_type
     bundles:
+      document: document
       key_staff_member: key_staff_member
       landing_page: landing_page
       page: page

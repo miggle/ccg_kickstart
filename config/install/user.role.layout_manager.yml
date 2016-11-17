@@ -16,3 +16,4 @@ permissions:
   - 'administer panelizer node news defaults'
   - 'view files'
   - 'administer panelizer node key_staff_member defaults'
+  - 'administer panelizer node document defaults'
