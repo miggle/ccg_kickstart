@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /our-board-and-management-comitee
+    pages: /our-board-and-management-committee
     negate: false
     context_mapping: {  }
