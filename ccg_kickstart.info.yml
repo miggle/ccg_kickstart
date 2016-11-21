@@ -67,6 +67,7 @@ dependencies:
   - sharethis
   - media_entity
   - menu_block
+  - config_rewrite
   # Lightning functionality.
   - lightning_core
   - lightning_workflow

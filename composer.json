@@ -74,6 +74,7 @@
     "drupal/cookieconsent": "^8.1.0",
     "drupal/social_media_links": "^8.1.0",
     "drupal/sharethis": "^8.2.0",
-    "drupal/menu_block": "^8.1.0"
+    "drupal/menu_block": "^8.1.0",
+    "drupal/config_rewrite": "^8.1.0"
   }
 }
