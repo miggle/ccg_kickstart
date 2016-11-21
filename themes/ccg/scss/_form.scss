@@ -27,6 +27,43 @@
   }
 }
 
+input, textarea, select, fieldset {
+  margin-bottom: 0;
+}
+
+main {
+  form {
+    @media (max-width: $medium-max) {
+      font-size: 11pt;
+    }
+    input[type="email"], input[type="number"], input[type="search"],
+    input[type="text"], input[type="tel"], input[type="url"],
+    input[type="password"], select {
+      width: 100%;
+      @media (max-width: $medium-max) {
+        height: 30px;
+      }
+    }
+    textarea {
+      height: 60px;
+    }
+    .button, button:not(.nhs-widget-find-js):not(.nhs-widget-reset-js), input[type="submit"] {
+      @media (max-width: $medium-max) {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+        font-size: 11pt;
+      }
+    }
+    .form-actions {
+      @media (max-width: $medium-max) {
+        width: 100%;
+      }
+    }
+  }
+}
+
 input[type="email"], input[type="number"], input[type="search"],
 input[type="text"], input[type="tel"], input[type="url"],
 input[type="password"], select {
