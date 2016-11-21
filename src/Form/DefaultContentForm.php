@@ -43,7 +43,7 @@ class DefaultContentForm extends FormBase {
   public function getFormId() {
     return 'ccg_kickstart_default_content';
   }
-
+  
   /**
    * {@inheritdoc}
    */

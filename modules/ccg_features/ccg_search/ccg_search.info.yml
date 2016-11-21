@@ -1,9 +1,0 @@
-name: CCG search
-description: Provides default search configuration for CCG sites.
-core: 8.x
-type: module
-package: CCG Kickstart
-dependencies:
- - search_api
- - search_api_db
- - search_api_page
