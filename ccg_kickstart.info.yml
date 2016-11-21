@@ -68,6 +68,7 @@ dependencies:
   - media_entity
   - menu_block
   - config_rewrite
+  - contact_block
   # Lightning functionality.
   - lightning_core
   - lightning_workflow
