@@ -21,7 +21,6 @@ class CCGKickstart {
    */
   public static function features() {
     if (self::$featureList === NULL) {
-      $module_handler = \Drupal::service('module_handler');
       $features_dir = drupal_get_path('profile', 'ccg_kickstart') . '/modules/ccg/features';
       $features = array_map(function ($file) {
         $parts = explode('/', $file);

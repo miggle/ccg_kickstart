@@ -19,7 +19,7 @@ class DefaultContentForm extends FormBase {
   protected $root;
 
   /**
-   * ExtensionSelectForm constructor.
+   * DefaultContentForm constructor.
    *
    * @param string $root
    *   The Drupal application root.
@@ -48,10 +48,13 @@ class DefaultContentForm extends FormBase {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state, array &$install_state = NULL) {
+    // Retrieve the map of features to default content modules.
+    // Retrieve the enabled set of features.
     $form['#title'] = $this->t('Create default content');
     $form['default_content'] = [
       '#type' => 'checkbox',
-      '#title' => $this->t('Check this box to create default content when installing the site.'),
+      '#title' => $this->t('Check this box to create default content for your new site install.'),
+      '#default_value' => 1,
     ];
     $form['actions'] = [
       'continue' => [
@@ -69,12 +72,15 @@ class DefaultContentForm extends FormBase {
   public function submitForm(array &$form, FormStateInterface $form_state) {
     if ($form_state->getValue('default_content')) {
       // Simply install the default content module if default content has been selected.
-      $installed = \Drupal::service('module_installer')->install(['ccg_default_content', 'ccg_second_level_menu_links', 'ccg_third_level_menu_links', 'ccg_search']);
+      $installed = \Drupal::service('module_installer')->install(['ccg_default_content', 'ccg_second_level_menu_links', 'ccg_third_level_menu_links']);
       if ($installed) {
         drupal_set_message($this->t('Default content has been created.'), 'status');
       } else {
         drupal_set_message($this->t('Something went wrong with creating the default content.'), 'error');
       }
+      // Remove our install process specific state value determining whether or not to create default content
+      // based on whether or not all features are selected.
+      \Drupal::state()->delete('ccg_kickstart.create_default_content');
     }
   }
 }

@@ -12,6 +12,7 @@ use Drupal\ccg_kickstart\Form\FeatureForm;
  * Implements hook_install_tasks().
  */
 function ccg_kickstart_install_tasks(&$install_state) {
+  $create_default_content = \Drupal::state()->get('ccg_kickstart.create_default_content', FALSE);
   return array(
     'ccg_kickstart_features' => array(
       'display_name' => t('Select features'),
@@ -19,11 +20,44 @@ function ccg_kickstart_install_tasks(&$install_state) {
       'type' => 'form',
       'function' => FeatureForm::class,
     ),
-    'ccg_kickstart_default_content' => array(
-      'display_name' => t('Create default content'),
+    'ccg_kickstart_install_features' => array(
+      'display_name' => t('Install features'),
       'display' => TRUE,
+      'type' => 'batch',
+    ),
+    'ccg_kickstart_create_default_content' => array(
+      'display_name' => t('Create default content'),
+      'display' => $create_default_content,
       'type' => 'form',
       'function' => DefaultContentForm::class,
+      'run' => $create_default_content ? INSTALL_TASK_RUN_IF_NOT_COMPLETED : INSTALL_TASK_SKIP,
     ),
   );
+}
+
+/**
+ * Deals with building an array of batch operations for the installation
+ * of selected features.
+ *
+ * @return array
+ */
+function ccg_kickstart_install_features(array &$install_state) {
+  $batch = [];
+  // In the case all features are selected reveal the default content step.
+  if (count($install_state['ccg_kickstart']['features']) === count(\Drupal\ccg_kickstart\CCGKickstart::features())) {
+    \Drupal::state()->set('ccg_kickstart.create_default_content', TRUE);
+  }
+  foreach ($install_state['ccg_kickstart']['features'] as $feature) {
+    $batch['operations'][] = ['ccg_kickstart_install_feature', [$feature]];
+  }
+  return $batch;
+}
+
+/**
+ * Deals with installing a single feature for a new site install.
+ *
+ * @param $feature
+ */
+function ccg_kickstart_install_feature($feature) {
+  \Drupal::service('module_installer')->install([$feature]);
 }

@@ -23,5 +23,7 @@ dependencies:
   - taxonomy
   - text
   - user
+  - editor
+  - entity_embed
 version: 8.x-1.0
 package: 'CCG Kickstart'

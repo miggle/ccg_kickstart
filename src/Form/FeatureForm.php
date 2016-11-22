@@ -90,7 +90,6 @@ class FeatureForm extends FormBase {
    * {@inheritdoc}
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-    $installer = \Drupal::service('module_installer');
     // Add the core feature to the list of features to be installed as the core feature
     // is not optional.
     $install_features = ['ccg_kickstart_core'];
@@ -99,11 +98,7 @@ class FeatureForm extends FormBase {
         $install_features[] = $name;
       }
     }
-    $installed = $installer->install($install_features);
-    if ($installed) {
-      drupal_set_message($this->t('The selected features have been installed for your site.'), 'status');
-    } else {
-      drupal_set_message($this->t('Something went wrong with installing the selected features.'), 'error');
-    }
+    // Save the features to be installed to the install state.
+    $GLOBALS['install_state']['ccg_kickstart']['features'] = $install_features;
   }
 }
