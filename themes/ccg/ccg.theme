@@ -22,6 +22,7 @@ function ccg_preprocess_breadcrumb(&$vars) {
   $vars['breadcrumb'][] = [
     'text' => $page_title
   ];
+  $vars['#cache']['contexts'][] = 'url';
 }
 
 /**
