@@ -81,6 +81,8 @@ class DefaultContentForm extends FormBase {
       // Remove our install process specific state value determining whether or not to create default content
       // based on whether or not all features are selected.
       \Drupal::state()->delete('ccg_kickstart.create_default_content');
+      // Flush all the caches mostly to ensure that breadcrumbs kick in correctly from the start.
+      drupal_flush_all_caches();
     }
   }
 }

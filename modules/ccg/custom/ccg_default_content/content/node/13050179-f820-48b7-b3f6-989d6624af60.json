@@ -190,7 +190,7 @@
     ],
     "moderation_state": [
         {
-            "target_id": "draft",
+            "target_id": "published",
             "lang": "en"
         }
     ]
