@@ -32,6 +32,12 @@ function ccg_kickstart_install_tasks(&$install_state) {
       'function' => DefaultContentForm::class,
       'run' => $create_default_content ? INSTALL_TASK_RUN_IF_NOT_COMPLETED : INSTALL_TASK_SKIP,
     ),
+    'ccg_kickstart_install_default_content' => array(
+      'display_name' => t('Install default content'),
+      'display' => $create_default_content,
+      'type' => 'batch',
+      'run' => $create_default_content ? INSTALL_TASK_RUN_IF_NOT_COMPLETED : INSTALL_TASK_SKIP,
+    ),
   );
 }
 
@@ -60,4 +66,38 @@ function ccg_kickstart_install_features(array &$install_state) {
  */
 function ccg_kickstart_install_feature($feature) {
   \Drupal::service('module_installer')->install([$feature]);
+}
+
+
+/**
+ * Deals with building an array of batch operations for installing default content
+ * and any other tasks needed to be carried out.
+ *
+ * @param array $install_state
+ * @return array
+ */
+function ccg_kickstart_install_default_content(array &$install_state) {
+  $batch = [];
+  foreach ($install_state['ccg_kickstart']['default_content_tasks'] as $task) {
+    $batch['operations'][] = ['ccg_kickstart_default_content_task', [$task]];
+  }
+  return $batch;
+}
+
+/**
+ * Deals with carrying out a single default content batch task.
+ *
+ * @param $task
+ */
+function ccg_kickstart_default_content_task($task) {
+  if (strpos($task, 'module:') === 0) {
+    $module = explode(':', $task)[1];
+    \Drupal::service('module_installer')->install([$module]);
+  } else {
+    switch ($task) {
+      case 'clear-cache':
+        drupal_flush_all_caches();
+        break;
+    }
+  }
 }

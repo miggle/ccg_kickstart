@@ -71,18 +71,12 @@ class DefaultContentForm extends FormBase {
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
     if ($form_state->getValue('default_content')) {
-      // Simply install the default content module if default content has been selected.
-      $installed = \Drupal::service('module_installer')->install(['ccg_default_content', 'ccg_second_level_menu_links', 'ccg_third_level_menu_links']);
-      if ($installed) {
-        drupal_set_message($this->t('Default content has been created.'), 'status');
-      } else {
-        drupal_set_message($this->t('Something went wrong with creating the default content.'), 'error');
-      }
-      // Remove our install process specific state value determining whether or not to create default content
-      // based on whether or not all features are selected.
-      \Drupal::state()->delete('ccg_kickstart.create_default_content');
-      // Flush all the caches mostly to ensure that breadcrumbs kick in correctly from the start.
-      drupal_flush_all_caches();
+      $GLOBALS['install_state']['ccg_kickstart']['default_content_tasks'] = [
+        'module:ccg_default_content',
+        'module:ccg_second_level_menu_links',
+        'module:ccg_third_level_menu_links',
+        'clear-cache',
+      ];
     }
   }
 }
