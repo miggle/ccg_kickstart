@@ -93,17 +93,5 @@ function ccg_kickstart_default_content_task($task) {
   if (strpos($task, 'module:') === 0) {
     $module = explode(':', $task)[1];
     \Drupal::service('module_installer')->install([$module]);
-  } else {
-    switch ($task) {
-      case 'clear-cache':
-        \Drupal\Core\Cache\Cache::invalidateTags([
-          'config:block.block.ccg_breadcrumbs',
-          'config:block.block.copyright',
-          'block_content:1',
-          'block:content_list',
-          'block:content_view'
-        ]);
-        break;
-    }
   }
 }

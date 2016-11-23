@@ -75,7 +75,6 @@ class DefaultContentForm extends FormBase {
         'module:ccg_default_content',
         'module:ccg_second_level_menu_links',
         'module:ccg_third_level_menu_links',
-        'clear-cache',
       ];
     }
   }
