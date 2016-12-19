@@ -7,6 +7,8 @@ use Drupal\Core\Menu\MenuLinkTree;
 function ccg_form_search_api_page_block_form_alter(array &$form, \Drupal\Core\Form\FormStateInterface $form_state) {
   // Ensure the label for the search form gets displayed.
   $form['keys']['#title_display'] = 'before';
+  // Set access key for giving search focus.
+  $form['keys']['#attributes']['accesskey'] = 4;
   // Add out search icon class to the submit button.
   $form['actions']['submit']['#attributes']['class'] = ['search-icon'];
 }

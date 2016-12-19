@@ -75,6 +75,7 @@ dependencies:
   # CCG Kickstart functionality
   - ccg_admin_alterations
   - ccg_choice_widget
+  - ccg_menu_extras
 
 themes:
   - bartik

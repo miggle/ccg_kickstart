@@ -43,7 +43,11 @@
         {
             "uri": "internal:\/",
             "title": "",
-            "options": []
+            "options": {
+                "attributes": {
+                    "accesskey": "1"
+                }
+            }
         }
     ],
     "external": [
@@ -73,7 +77,7 @@
     ],
     "changed": [
         {
-            "value": "1477396100",
+            "value": "1481801481",
             "lang": "en"
         }
     ],

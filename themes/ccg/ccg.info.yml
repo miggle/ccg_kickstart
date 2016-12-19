@@ -10,6 +10,7 @@ libraries:
   - ccg/choices
   - ccg/tabs
   - ccg/misc
+  - ccg/accessibility
 regions:
   branding: Header branding
   navigation: Header navigation

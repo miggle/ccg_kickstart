@@ -24,3 +24,6 @@ tabs:
     - core/matchmedia
     - core/jquery
     - core/drupal
+accessibility:
+  js:
+    js/access.js: {}

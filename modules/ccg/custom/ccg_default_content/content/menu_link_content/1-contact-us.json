@@ -42,8 +42,12 @@
     "link": [
         {
             "uri": "entity:node\/5",
-            "title": null,
-            "options": []
+            "title": "",
+            "options": {
+                "attributes": {
+                    "accesskey": "9"
+                }
+            }
         }
     ],
     "external": [
@@ -73,7 +77,7 @@
     ],
     "changed": [
         {
-            "value": "1476718902",
+            "value": "1481802368",
             "lang": "en"
         }
     ],
