@@ -1,3 +1,4 @@
+uuid: b3d74cd4-5c62-4ab3-8f37-261d561f58a2
 langcode: en
 status: true
 dependencies:
@@ -5,6 +6,7 @@ dependencies:
     - field.field.node.document.field_description
     - field.field.node.document.field_document
     - field.field.node.document.field_related_content
+    - field.field.node.document.field_review_date
     - node.type.document
   module:
     - file_entity
@@ -17,6 +19,8 @@ third_party_settings:
     custom: false
     allow: false
     default: default
+_core:
+  default_config_hash: cuW3rAMUdJyNwQ5LLCfeU-lrvCfk-l3S9d2VYT5Gq0Q
 id: node.document.default
 targetEntityType: node
 bundle: document
@@ -55,4 +59,5 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_review_date: true

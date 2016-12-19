@@ -1,3 +1,4 @@
+uuid: 32e40653-8334-4f3a-accb-1ab4ae8d1b26
 langcode: en
 status: true
 dependencies:
@@ -5,12 +6,16 @@ dependencies:
     - field.field.node.news.body
     - field.field.node.news.field_image
     - field.field.node.news.field_news_tags
+    - field.field.node.news.field_review_date
     - node.type.news
   module:
+    - datetime
     - entity_browser
     - path
     - text
     - workbench_moderation
+_core:
+  default_config_hash: 3W3mwKFpUjuKRJfTyXK_K4--L7qL7cJAe3Ki1pA-8ao
 id: node.news.default
 targetEntityType: node
 bundle: news
@@ -49,6 +54,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete_tags
+  field_review_date:
+    weight: 34
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
   path:
     type: path
     weight: 30

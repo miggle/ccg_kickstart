@@ -1,3 +1,4 @@
+uuid: 0ef901a6-625c-4fb4-a75b-846dc54e8953
 langcode: en
 status: true
 dependencies:
@@ -7,6 +8,7 @@ dependencies:
     - field.field.node.landing_page.field_landing_page_have_your_say
     - field.field.node.landing_page.field_landing_page_hys_link
     - field.field.node.landing_page.field_meta_tags
+    - field.field.node.landing_page.field_review_date
     - node.type.landing_page
   module:
     - link
@@ -63,6 +65,8 @@ third_party_settings:
         static_context: {  }
     allow: false
     default: default
+_core:
+  default_config_hash: tmw6dlEJjNvRyQ1sLc4QK2QlUoKb6Kyrig9vNgBjLCA
 id: node.landing_page.full
 targetEntityType: node
 bundle: landing_page
@@ -109,4 +113,5 @@ content:
     weight: -20
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_review_date: true

@@ -1,3 +1,4 @@
+uuid: fabb0ea1-44bc-4f48-b58e-2da0f492b7d5
 langcode: en
 status: true
 dependencies:
@@ -5,8 +6,10 @@ dependencies:
     - field.field.node.news.body
     - field.field.node.news.field_image
     - field.field.node.news.field_news_tags
+    - field.field.node.news.field_review_date
     - node.type.news
   module:
+    - datetime
     - image
     - panelizer
     - text
@@ -17,6 +20,8 @@ third_party_settings:
     custom: false
     allow: false
     default: default
+_core:
+  default_config_hash: 36CvIHpchvuMa4HX9wQw7UD6t_pyGGr2SRN_vDxMT8A
 id: node.news.default
 targetEntityType: node
 bundle: news
@@ -36,10 +41,20 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+  field_review_date:
+    weight: 11
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
   links:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+  sharethis:
+    weight: 10
   workbench_moderation_control:
     weight: -20
     settings: {  }

@@ -1,3 +1,4 @@
+uuid: 8cb9572e-0f4d-4543-a901-236debc2707d
 langcode: en
 status: true
 dependencies:
@@ -5,12 +6,16 @@ dependencies:
     - field.field.node.document.field_description
     - field.field.node.document.field_document
     - field.field.node.document.field_related_content
+    - field.field.node.document.field_review_date
     - node.type.document
   module:
+    - datetime
     - entity_browser
     - path
     - text
     - workbench_moderation
+_core:
+  default_config_hash: wzPI0cw6BsuEnS4-Kx-BKuHiikMc952nElNfWRhSOqw
 id: node.document.default
 targetEntityType: node
 bundle: document
@@ -48,6 +53,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+  field_review_date:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
   path:
     type: path
     weight: 5

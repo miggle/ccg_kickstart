@@ -1,3 +1,4 @@
+uuid: a229f852-f1c0-4446-91de-2dca49f01cf8
 langcode: en
 status: true
 dependencies:
@@ -7,15 +8,19 @@ dependencies:
     - field.field.node.key_staff_member.field_member_type
     - field.field.node.key_staff_member.field_qualifications
     - field.field.node.key_staff_member.field_registered_interests
+    - field.field.node.key_staff_member.field_review_date
     - field.field.node.key_staff_member.field_title
     - field.field.node.key_staff_member.scheduled_update
     - node.type.key_staff_member
   module:
+    - datetime
     - entity_browser
     - inline_entity_form
     - path
     - text
     - workbench_moderation
+_core:
+  default_config_hash: Rk-qAGOnQfgduG_Om5Cx9DBk4p0dMFFQRy_1NMlVIwc
 id: node.key_staff_member.default
 targetEntityType: node
 bundle: key_staff_member
@@ -67,6 +72,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+  field_review_date:
+    weight: 38
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
   field_title:
     weight: 33
     settings:
