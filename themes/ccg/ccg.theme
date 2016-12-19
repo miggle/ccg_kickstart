@@ -28,6 +28,26 @@ function ccg_preprocess_breadcrumb(&$vars) {
 }
 
 /**
+ * Implements template_preprocess_field().
+ */
+function ccg_preprocess_field(&$vars) {
+  if ($vars['field_name'] === 'field_landing_page_have_your_say') {
+    $vars['title_attributes']['id'] = 'landingpage-hys-label';
+    $vars['attributes']['aria-labelledby'] = 'landingpage-hys-label';
+    $vars['attributes']['role'] = 'section';
+  }
+}
+
+/**
+ * Implements template_preprocess_form().
+ */
+function ccg_preprocess_form(&$vars) {
+  if ($vars['element']['#form_id'] === 'search_api_page_block_form') {
+    $vars['attributes']['aria-label'] = 'search';
+  }
+}
+
+/**
  * Theme function override for ShareThis code based on settings.
  */
 function ccg_sharethis_block($variables) {
