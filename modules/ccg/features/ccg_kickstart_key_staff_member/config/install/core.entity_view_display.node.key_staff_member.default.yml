@@ -14,6 +14,7 @@ dependencies:
     - image.style.large
     - node.type.key_staff_member
   module:
+    - datetime
     - image
     - panelizer
     - text
@@ -52,6 +53,14 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+  field_review_date:
+    type: datetime_custom
+    weight: 6
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: 'jS F Y'
+    third_party_settings: {  }
   field_title:
     weight: 2
     label: hidden
@@ -70,6 +79,5 @@ content:
 hidden:
   field_member_type: true
   field_registered_interests: true
-  field_review_date: true
   scheduled_update: true
   workbench_moderation_control: true

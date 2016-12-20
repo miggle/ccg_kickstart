@@ -98,7 +98,11 @@ view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
             <div class="six columns">{{ content.field_image }}</div>
             <div class="six columns">{{ content.field_bio }}</div>
         </div>
-        {{ content|without('field_qualifications', 'field_title', 'field_image', 'field_bio') }}
+        {{ content|without('field_qualifications', 'field_title', 'field_image', 'field_bio', 'field_review_date') }}
+        <div class="date-section">
+            <p><strong>Last reviewed on: </strong> {{ node.changedTime|date("jS F Y") }}</p>
+            <p>{{ content.field_review_date }}</p>
+        </div>
     </div>
 
 </article>

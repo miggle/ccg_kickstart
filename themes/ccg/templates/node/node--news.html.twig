@@ -104,7 +104,11 @@ view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
     {% endif %}
 
     <div{{ content_attributes.addClass('node__content content') }}>
-        {{ content|without('field_image') }}
+        {{ content|without('field_image', 'field_review_date') }}
+        <div class="date-section">
+            <p><strong>Last reviewed on: </strong> {{ node.changedTime|date("jS F Y") }}</p>
+            <p>{{ content.field_review_date }}</p>
+        </div>
     </div>
 
 </article>

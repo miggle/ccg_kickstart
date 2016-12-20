@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.page.scheduled_update
     - node.type.page
   module:
+    - datetime
     - image
     - metatag
     - panelizer
@@ -48,6 +49,14 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
+  field_review_date:
+    type: datetime_custom
+    weight: 6
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: 'jS F Y'
+    third_party_settings: {  }
   links:
     weight: 3
     settings: {  }
@@ -61,5 +70,4 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_review_date: true
   scheduled_update: true

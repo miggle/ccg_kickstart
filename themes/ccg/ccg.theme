@@ -31,10 +31,17 @@ function ccg_preprocess_breadcrumb(&$vars) {
  * Implements template_preprocess_field().
  */
 function ccg_preprocess_field(&$vars) {
-  if ($vars['field_name'] === 'field_landing_page_have_your_say') {
-    $vars['title_attributes']['id'] = 'landingpage-hys-label';
-    $vars['attributes']['aria-labelledby'] = 'landingpage-hys-label';
-    $vars['attributes']['role'] = 'section';
+  switch ($vars['field_name']) {
+    case 'field_landing_page_have_your_say': {
+      $vars['title_attributes']['id'] = 'landingpage-hys-label';
+      $vars['attributes']['aria-labelledby'] = 'landingpage-hys-label';
+      $vars['attributes']['role'] = 'section';
+      break;
+    }
+    case 'field_review_date': {
+      $vars['label'] = t('Next review date');
+      break;
+    }
   }
 }
 

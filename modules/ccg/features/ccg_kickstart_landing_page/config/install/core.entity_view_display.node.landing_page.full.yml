@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.landing_page.field_review_date
     - node.type.landing_page
   module:
+    - datetime
     - link
     - metatag
     - panelizer
@@ -74,19 +75,19 @@ mode: full
 content:
   body:
     type: text_default
-    weight: 2
+    weight: 3
     label: hidden
     settings: {  }
     third_party_settings: {  }
   field_landing_page_have_your_say:
     type: text_default
-    weight: 3
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
   field_landing_page_hys_link:
     type: link
-    weight: 4
+    weight: 5
     label: hidden
     settings:
       trim_length: 80
@@ -96,22 +97,29 @@ content:
       url_plain: false
     third_party_settings: {  }
   field_meta_tags:
-    weight: 1
+    weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
+  field_review_date:
+    type: datetime_custom
+    weight: 7
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: 'jS F Y'
+    third_party_settings: {  }
   links:
-    weight: 0
+    weight: 1
     settings: {  }
     third_party_settings: {  }
   sharethis:
-    weight: 10
+    weight: 6
     settings: {  }
     third_party_settings: {  }
   workbench_moderation_control:
-    weight: -20
+    weight: 0
     settings: {  }
     third_party_settings: {  }
-hidden:
-  field_review_date: true
+hidden: {  }

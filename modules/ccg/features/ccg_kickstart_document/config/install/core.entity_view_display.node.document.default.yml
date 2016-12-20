@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.document.field_review_date
     - node.type.document
   module:
+    - datetime
     - file_entity
     - panelizer
     - text
@@ -47,6 +48,14 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+  field_review_date:
+    type: datetime_custom
+    weight: 6
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: 'jS F Y'
+    third_party_settings: {  }
   links:
     weight: 2
     settings: {  }
@@ -59,5 +68,4 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-hidden:
-  field_review_date: true
+hidden: {  }

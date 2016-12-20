@@ -43,18 +43,20 @@ content:
     type: image
   field_review_date:
     weight: 11
-    label: above
+    label: inline
     settings:
-      format_type: medium
       timezone_override: ''
+      date_format: 'jS F Y'
     third_party_settings: {  }
-    type: datetime_default
+    type: datetime_custom
   links:
     weight: 0
     settings: {  }
     third_party_settings: {  }
   sharethis:
     weight: 10
+    settings: {  }
+    third_party_settings: {  }
   workbench_moderation_control:
     weight: -20
     settings: {  }
