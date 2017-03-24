@@ -70,7 +70,9 @@ dependencies:
   - config_rewrite
   - contact_block
   # Lightning functionality.
-  - lightning_core
+  - lightning_contact_form
+  - lightning_page
+  - lightning_search
   - lightning_workflow
   # CCG Kickstart functionality
   - ccg_admin_alterations
