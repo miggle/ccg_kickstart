@@ -9,8 +9,6 @@ dependencies:
   - file_entity
   - image
   - inline_entity_form
-  - lightning_layout
-  - lightning_workflow
   - menu_ui
   - metatag
   - node

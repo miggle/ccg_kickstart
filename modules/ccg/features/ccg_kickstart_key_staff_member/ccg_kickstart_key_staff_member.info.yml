@@ -9,7 +9,6 @@ dependencies:
   - field
   - image
   - inline_entity_form
-  - lightning_workflow
   - menu_ui
   - node
   - panelizer

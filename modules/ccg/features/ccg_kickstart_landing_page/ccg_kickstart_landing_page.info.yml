@@ -6,7 +6,6 @@ dependencies:
   - ccg_kickstart_core
   - field
   - field_group
-  - lightning_layout
   - link
   - menu_ui
   - metatag
