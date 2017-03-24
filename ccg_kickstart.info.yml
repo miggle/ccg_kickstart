@@ -69,9 +69,6 @@ dependencies:
   - menu_block
   - config_rewrite
   - contact_block
-  # Lightning functionality.
-  - lightning_core
-  - lightning_workflow
   # CCG Kickstart functionality
   - ccg_admin_alterations
   - ccg_choice_widget
