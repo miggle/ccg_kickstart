@@ -1,0 +1,14 @@
+uuid: 639f67a8-241e-41a3-a3c6-0d7ff0137f75
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.internal_page_creator
+  module:
+    - user
+id: user_remove_role_action.internal_page_creator
+label: 'Remove the Internal page creator role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: internal_page_creator

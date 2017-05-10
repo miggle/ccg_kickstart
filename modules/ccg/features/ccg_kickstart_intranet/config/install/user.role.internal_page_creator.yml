@@ -1,0 +1,14 @@
+uuid: cb0425ab-6b5c-4b94-ace0-ee4d5067fd25
+langcode: en
+status: true
+dependencies: {  }
+id: internal_page_creator
+label: 'Internal Page Creator'
+weight: 14
+is_admin: null
+permissions:
+  - 'create internal_page content'
+  - 'delete any internal_page content'
+  - 'edit any internal_page content'
+  - 'revert internal_page revisions'
+  - 'view internal_page revisions'

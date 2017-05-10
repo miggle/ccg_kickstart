@@ -1,0 +1,65 @@
+uuid: a3872027-b9b0-4dc5-9356-6b953034f696
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.internal_page.body
+    - field.field.node.internal_page.field_meta_tags
+    - field.field.node.internal_page.field_private_image
+    - field.field.node.internal_page.field_review_date
+    - field.field.node.internal_page.scheduled_update
+    - node.type.internal_page
+  module:
+    - datetime
+    - image
+    - metatag
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+id: node.internal_page.default
+targetEntityType: node
+bundle: internal_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_meta_tags:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+  field_private_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_review_date:
+    weight: 5
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: 'jS F Y'
+    third_party_settings: {  }
+    type: datetime_custom
+  links:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  sharethis:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  scheduled_update: true

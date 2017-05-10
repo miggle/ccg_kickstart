@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: internal_page_pattern
+label: 'Internal page pattern'
+type: 'canonical_entities:node'
+pattern: 'staff/[node:title]'
+selection_criteria:
+  2cff1612-e283-460e-a373-e093a8f778ed:
+    id: node_type
+    bundles:
+      internal_page: internal_page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 2cff1612-e283-460e-a373-e093a8f778ed
+selection_logic: and
+weight: -5
+relationships: {  }

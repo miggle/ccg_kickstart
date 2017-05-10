@@ -1,0 +1,28 @@
+uuid: cea7dd14-6a2d-430b-9f50-cbb7e714b48c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.internal_page.body
+    - node.type.internal_page
+  module:
+    - text
+    - user
+id: node.internal_page.teaser
+targetEntityType: node
+bundle: internal_page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+  sharethis:
+    weight: 10
+hidden: {  }

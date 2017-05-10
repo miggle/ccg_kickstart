@@ -1,0 +1,8 @@
+uuid: 3590d145-fda6-4105-a78a-e5b2485694bf
+langcode: en
+status: true
+dependencies: {  }
+id: internal-menu
+label: 'Internal menu'
+description: 'Menu for internal pages'
+locked: false

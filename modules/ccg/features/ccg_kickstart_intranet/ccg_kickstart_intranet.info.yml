@@ -1,0 +1,21 @@
+name: Intranet
+description: 'Intranet feature.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - ccg_kickstart_basic_page
+  - entity_browser
+  - field
+  - file
+  - file_entity
+  - menu_ui
+  - node
+  - path
+  - pathauto
+  - system
+  - text
+  - user
+  - content_access
+version: 8.x-1.0
+package: 'CCG Kickstart'

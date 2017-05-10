@@ -102,6 +102,7 @@
     "drupal/entity_browser": "^1.0",
     "drupal/views_infinite_scroll": "^1.1",
     "drupal/media_entity_document": "^1.0",
-    "drupal/video_embed_field": "^1.0"
+    "drupal/video_embed_field": "^1.0",
+    "drupal/content_access": "1.x-dev"
   }
 }
