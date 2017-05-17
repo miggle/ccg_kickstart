@@ -1,10 +1,10 @@
 name: Intranet
-description: 'Intranet feature.'
+description: 'Provides an access controlled internal page content type along with an intranet specific menu tree. 2 roles provide the permissions to view and create internal content.'
 type: module
 core: 8.x
 dependencies:
   - block
-  - ccg_kickstart_basic_page
+  - ccg_kickstart_core
   - entity_browser
   - field
   - file

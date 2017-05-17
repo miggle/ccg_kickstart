@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ccg_kickstart_intranet
+    - user
+  theme:
+    - ccg
+id: userlogin
+theme: ccg
+region: content
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility:
+  ccg_access_denied:
+    id: ccg_access_denied
+    blah: null
+    negate: null
+    context_mapping: {  }
+    routes:
+      403: '403'
+      404: 0
+    status_codes:
+      403: '403'
+      404: 0
