@@ -1,0 +1,94 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/file\/42?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/document"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/document\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": "42"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4d70cade-dcb7-4755-ad36-e4f125ece879"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "document"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/document\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11b60ca4-0d46-4303-a17f-8dbc572f7995"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "test_file.txt"
+        }
+    ],
+    "uri": [
+        {
+            "value": "private:\/\/2017-05\/test_file.txt"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "text\/plain"
+        }
+    ],
+    "filesize": [
+        {
+            "value": "13"
+        }
+    ],
+    "status": [
+        {
+            "value": "1"
+        }
+    ],
+    "created": [
+        {
+            "value": "1495187012"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1495187012"
+        }
+    ],
+    "data": [
+        {
+            "value": "SGVsbG8gV29ybGQhCg=="
+        }
+    ]
+}

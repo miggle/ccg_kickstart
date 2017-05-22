@@ -1,0 +1,157 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/staff\/example-internal-page?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/internal_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/internal_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/internal_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "26"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0c9c6911-1d39-4af6-a62f-0e656b3c89f1"
+        }
+    ],
+    "vid": [
+        {
+            "value": "82"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "internal_page"
+        }
+    ],
+    "title": [
+        {
+            "value": "Example internal page",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/internal_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11b60ca4-0d46-4303-a17f-8dbc572f7995"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/internal_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11b60ca4-0d46-4303-a17f-8dbc572f7995"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1494518790",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1494518942",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1494518942"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a velit eros, in iaculis nunc. Aenean eu velit sapien. Nunc malesuada ultrices mi, sit amet auctor velit aliquet sed. Mauris luctus scelerisque lectus sit amet bibendum. Nulla tincidunt volutpat metus ac venenatis. Integer semper mauris ut purus dignissim elementum. Phasellus id elit non ipsum aliquet porta a vehicula ligula. Fusce volutpat pulvinar feugiat. Aenean sodales molestie nulla, vel elementum lorem molestie eget. Nam congue ullamcorper massa vitae porta. Vestibulum mollis auctor sollicitudin. Fusce vel felis tellus, at malesuada libero. Ut dictum sollicitudin mauris sit amet tincidunt.<\/p>\r\n\r\n<p>Etiam ipsum tellus, iaculis ac fringilla et, elementum at urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec nunc augue, ornare ac accumsan quis, elementum sit amet metus. Suspendisse ultricies lectus nec lorem euismod euismod. Pellentesque in orci et nisi molestie sodales eleifend ut enim. Nulla facilisi. Curabitur vel elit vehicula nibh suscipit eleifend vel id velit.<\/p>\r\n\r\n<p>Maecenas ipsum justo, commodo ac tincidunt non, pulvinar id nunc. Sed nibh tortor, cursus sodales malesuada in, congue sed neque. Donec tincidunt tincidunt aliquet. Nulla ipsum dolor, tempus ut pulvinar sit amet, fermentum vel dui. Sed tincidunt hendrerit libero, a imperdiet odio fermentum rutrum. Etiam eu velit a ipsum mollis sollicitudin. Phasellus ut libero ipsum. Cras ullamcorper leo at turpis venenatis venenatis.<\/p>\r\n",
+            "format": "rich_text",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ],
+    "field_review_date": [
+        {
+            "value": "2018-01-01",
+            "lang": "en"
+        }
+    ]
+}

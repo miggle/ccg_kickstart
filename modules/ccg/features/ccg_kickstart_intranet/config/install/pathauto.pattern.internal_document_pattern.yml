@@ -1,0 +1,22 @@
+uuid: 5d554158-c7b4-484c-91bc-6645da5b5afc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: internal_document_pattern
+label: 'Internal document pattern'
+type: 'canonical_entities:node'
+pattern: 'staff/documents/[node:title]'
+selection_criteria:
+  0efb8980-2914-4934-8dfe-cb5f16d08719:
+    id: node_type
+    bundles:
+      internal_document: internal_document
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 0efb8980-2914-4934-8dfe-cb5f16d08719
+selection_logic: and
+weight: -5
+relationships: {  }
