@@ -18,6 +18,18 @@
       display: none;
     }
   }
+  .block-menu.menu--account {
+    @extend .clearfix;
+    margin-top: -20px;
+    ul.menu {
+      float: right;
+      display: table;
+      li {
+        display: table-cell;
+        padding-left: 10px;
+      }
+    }
+  }
 }
 
 .region-sidebar-second {

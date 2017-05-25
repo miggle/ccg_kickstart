@@ -1,0 +1,26 @@
+uuid: 19c84140-7ccd-4549-9262-f6c034019f57
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - ccg
+_core:
+  default_config_hash: UcgvHtc3JE5-0RULPj0xZNw0XM2SwbiiaerQh3o2Upk
+id: ccg_account_menu
+theme: ccg
+region: '-1'
+weight: -3
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }
