@@ -1,0 +1,28 @@
+uuid: 61389cba-62bb-4b21-ab56-703fec81c5ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - ccg_kickstart_intranet
+    - user
+  theme:
+    - ccg
+id: userlogin_2
+theme: ccg
+region: branding
+weight: -12
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: '0'
+visibility:
+  ccg_access_denied:
+    id: ccg_access_denied
+    status_codes:
+      403: 0
+      404: 0
+    negate: null
+    context_mapping: {  }

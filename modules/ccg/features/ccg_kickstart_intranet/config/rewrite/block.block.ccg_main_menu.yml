@@ -1,0 +1,39 @@
+uuid: 42121c12-2ecc-428c-9c76-04f18c2210fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - ccg_kickstart_intranet
+    - system
+  theme:
+    - ccg
+_core:
+  default_config_hash: 49-0enuc8r5lnLH4WbLxs1ItrJClTwpVD6y_mBdZJ98
+id: ccg_main_menu
+theme: ccg
+region: navigation
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility:
+  ccg_access_denied:
+    id: ccg_access_denied
+    status_codes:
+      403: 0
+      404: 0
+    negate: null
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '/staff/*'
+    negate: true
+    context_mapping: {  }

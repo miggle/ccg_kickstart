@@ -73,7 +73,7 @@ class AccessDeniedCondition extends ConditionPluginBase {
     $restricted_to_status_codes = $this->configuration['status_codes'];
 
     // Empty for no restriction.
-    if (empty($restricted_to_status_codes)) {
+    if (empty(array_filter($restricted_to_status_codes))) {
       return TRUE;
     }
     // Check route against config.

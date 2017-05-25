@@ -1,3 +1,25 @@
+.region-branding {
+  .block-user-login-block {
+    @extend .clearfix;
+    margin-top: -10px;
+    form {
+      display: table;
+      float: right;
+      .form-item,
+      .form-actions {
+        display: table-cell;
+        padding-left: 10px;
+        label {
+          display: inline;
+        }
+      }
+    }
+    .item-list {
+      display: none;
+    }
+  }
+}
+
 .region-sidebar-second {
   .block {
     padding-top: 10px;
