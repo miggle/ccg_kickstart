@@ -56,8 +56,8 @@
         "2635712 - Quickedit delete files": "https://www.drupal.org/files/issues/2635712-20.patch"
       },
       "drupal/file_entity": {
-        "2867574 - Core 8.3 compatibility for file_entity:8.x-2.0-beta3":
-        "./patches/file_entity/core_8_3_compability_issue.patch"
+        "2877678 - Update rest.link_manager dependency to use hal.link_manager service":
+        "https://www.drupal.org/files/issues/update-link_manager-service-2877678-11.patch"
       }
     }
   },
