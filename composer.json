@@ -57,7 +57,7 @@
       },
       "drupal/file_entity": {
         "2867574 - Core 8.3 compatibility for file_entity:8.x-2.0-beta3":
-        "patches/file_entity/core_8_3_compability_issue.patch"
+        "./patches/file_entity/core_8_3_compability_issue.patch"
       }
     }
   },
