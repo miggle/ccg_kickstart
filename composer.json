@@ -54,10 +54,6 @@
     "patches": {
       "drupal/core": {
         "2635712 - Quickedit delete files": "https://www.drupal.org/files/issues/2635712-20.patch"
-      },
-      "drupal/file_entity": {
-        "2877678 - Update rest.link_manager dependency to use hal.link_manager service":
-        "https://www.drupal.org/files/issues/update-link_manager-service-2877678-11.patch"
       }
     }
   },
@@ -80,7 +76,7 @@
     "drupal/menu_block": "^1.0",
     "drupal/config_rewrite": "^1.0",
     "drupal/contact_block": "^1.0",
-    "drupal/core": "~8.3.0",
+    "drupal/core": "~8.3.7",
     "drupal/embed": "^1.0",
     "drupal/entity_embed": "^1.0",
     "drupal/media_entity": "^1.0",
